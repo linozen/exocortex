@@ -1,27 +1,24 @@
-+++
-title = "Notes on: DevOps with Docker"
-author = ["Linus Sehn"]
-draft = false
-subtitle = "The very basics"
-summary = "The absolute basics of Docker and an introduction to docker-compose"
-tags = ["spotlight", "devops", "docker", "mooc"]
-+++
+---
+title: DevOps with Docker
+description: The absolute basics of Docker and an introduction to docker-compose
+tags:
+  - mooc
+  - devops
+  - docker
+aliases:
+  - devops-with-docker
+---
 
-Source >> <https://devopswithdocker.com/>
+## Part 0
 
-Links >> [Notes on: Full Stack Open 2020]({{< relref "full-stack-open-2020" >}})
-| [Notes on: DevOps with Kubernetes]({{< relref "devops-with-kubernetes" >}})
+I decided to use a Debian VM to follow the course. It's been quite a while since
+I made these notes and I was still using the deprecated `docker-compose`. All
+the relevant and up-to-date materials can be found
+[here](https://devopswithdocker.com/).
 
-{{< toc >}}
+## Part 1
 
-## Part 0 
-
-So, Docker support on Fedora is not great. So, I decided to use a Debian VM to
-follow the course.
-
-## Part 1 
-
-### What is DevOps 
+### What is DevOps
 
 > DevOps is a set of practices that combines software development (Dev) and IT
 > operations (Ops). It aims to shorten the systems development life cycle and
@@ -29,9 +26,9 @@ follow the course.
 > complementary with Agile software development; several DevOps aspects came
 > from Agile methodology. ([Wikipedia](https://en.wikipedia.org/wiki/DevOps))
 
-![[_20201110_103632screenshot.png"]]
+![[_20201110_103632screenshot.png]]
 
-### Why Docker? 
+### Why Docker?
 
 - it solves the problem of "runs on my machine" by bundling applications and
   their dependencies into an **image** that runs on every machine that can run
@@ -40,20 +37,20 @@ follow the course.
   [graphical comparison by Docker](https://www.docker.com/resources/what-container)
   shows the difference:
 
-  ![[_20201110_104239screenshot.png"]]
+  ![[_20201110_104239screenshot.png]]
 
-### What's an Image? 
+### What's an Image?
 
 A file that is built by another instructional file called "Dockerfile". The
 image cannot be changed, you can only "create a new layer to it"
 
-### What's a Container? 
+### What's a Container?
 
 **Containers** are instances of an image. Think of the Dockerfile as your
 shopping list, and of the image as the ingredients you end up buying. The
 container is the meal you get at the end if everything worked out.
 
-### CLI Basics 
+### CLI Basics
 
 | Docker commands                   | Description                                                                       |
 | --------------------------------- | --------------------------------------------------------------------------------- |
@@ -81,7 +78,7 @@ container is the meal you get at the end if everything worked out.
 | `attach --sig-proxy=false <name>` | attach to container and make sure it cannot be stopped                            |
 | `history <img>`                   | show which operations have taken place in an image and how they affected the size |
 
-#### Exercise 1.5 
+#### Exercise 1.5
 
 The first non-trivial exercise. I solved it by first running
 
@@ -105,9 +102,9 @@ docker exec \
 in order to install `curl`. then return to the first terminal and type in a
 website. It works as expected.
 
-### Working with Dockerfiles 
+### Working with Dockerfiles
 
-#### Exercise 1.6 
+#### Exercise 1.6
 
 ```dockerfile
 FROM devopsdockeruh/overwrite_cmd_exercise
@@ -119,7 +116,7 @@ docker build -t docker-clock ex1_7
 docker run -it --rm docker-clock
 ```
 
-#### Exercise 1.7 
+#### Exercise 1.7
 
 ```dockerfile
 FROM ubuntu:16.04
@@ -133,14 +130,14 @@ RUN chmod +x ./curl.sh
 CMD ["./curl.sh"]
 ```
 
-#### Exercise 1.8 
+#### Exercise 1.8
 
 ```shell
 touch ex1_18/logs.txt
 docker run --rm -v (pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
 ```
 
-#### Exercise 1.9 
+#### Exercise 1.9
 
 Run
 
@@ -152,7 +149,7 @@ which then allows me to visit my Debian's VM IP at port 5000:
 
 ![[_20201112_161656screenshot.png"]]
 
-#### Exercise 1.10 
+#### Exercise 1.10
 
 ```dockerfile
 FROM ubuntu:16.04
@@ -201,7 +198,7 @@ RUN set -x \
 ENTRYPOINT ["npm", "start"]
 ```
 
-#### Exercise 1.11 
+#### Exercise 1.11
 
 Here, we need a slightly slimmer Dockerfile that exposes another port:
 
@@ -227,7 +224,7 @@ touch logs.txt
 docker run -d --rm --name back -p 8000:8000 -v (pwd)/logs.txt:/home/node/logs.txt ex1_11:latest
 ```
 
-#### Exercise 1.12 
+#### Exercise 1.12
 
 We can just use the Dockerfiles from the past two exercises and run these two
 commands:
@@ -242,7 +239,7 @@ yielding a working front-end
 
 ![[_20201112_182002screenshot.png"]]
 
-#### Exercise 1.13 
+#### Exercise 1.13
 
 The Dockerfile looks as such
 
@@ -269,7 +266,7 @@ yielding the Spring application on port 8080.
 
 ![[_20201113_075648screenshot.png"]]
 
-#### Exercise 1.14 
+#### Exercise 1.14
 
 ```dockerfile
 FROM ruby:2.6.0
@@ -298,14 +295,14 @@ yielding
 
 ![[_20201113_085701screenshot.png"]]
 
-#### Exercises 1.15-1.17 
+#### Exercises 1.15-1.17
 
 I did not do these, as they are related to publishing images to Dockerhub and
 Heroku. Also, I want to get started with `docker-compose`. I did like the idea
 of creating a docker container for my development environment (tools and
 libraries). I added that to my roadmap for the future.
 
-#### Other Key Takeaways 
+#### Other Key Takeaways
 
 - When commands depend on one another, it is best practice to run them together,
   like so:
@@ -322,11 +319,11 @@ libraries). I added that to my roadmap for the future.
     order to publish a port you need to run the container with
     `-p <host-port>:<container-port>`
 
-## Part 2 
+## Part 2
 
-### Volumes in docker-compose 
+### Volumes in docker-compose
 
-#### Exercise 2.1 
+#### Exercise 2.1
 
 ```yaml
 version: "3.5"
@@ -347,7 +344,7 @@ touch logs.txt
 docker-compose up
 ```
 
-### Web Services 
+### Web Services
 
 We learn that we can give **ports** and **environment variables** to
 `docker-compose`
@@ -365,7 +362,7 @@ services:
       - VARIABLE
 ```
 
-#### Exercise 2.2 
+#### Exercise 2.2
 
 easy...
 
@@ -379,7 +376,7 @@ services:
       - 80:80
 ```
 
-#### Exercise 2.3 & 2.5 
+#### Exercise 2.3 & 2.5
 
 This really shows the advantages of `docker-compose` over using the Docker CLI.
 I also added [redis](https://hub.docker.com/%5F/redis/) which solves Exercise
@@ -419,7 +416,7 @@ services:
 
 ![[_20201113_112517screenshot.png"]]
 
-### Scaling 
+### Scaling
 
 - A really
   [good summary of why you want to use reverse proxies](http://jasonwilder.com/blog/2014/03/25/automated-nginx-reverse-proxy-for-docker/)
@@ -465,7 +462,7 @@ services:
       - VIRTUAL_HOST=world.colasloth.com
 ```
 
-#### Exercise 2.4 
+#### Exercise 2.4
 
 The command is fairly simple. On my configuration 5 instances of computer was
 enough:
@@ -481,7 +478,7 @@ Debian VM, openend Gnome Boxes and browsed to `local.test.me:3000`:
 
 ![[_20201113_122622screenshot.png"]]
 
-### Networking & More Complex Applications 
+### Networking & More Complex Applications
 
 Let's setup [Redmine](https://hub.docker.com/%5F/redmine) along with
 [Adminer](https://hub.docker.com/%5F/adminer) on the basis of a
@@ -527,7 +524,7 @@ volumes:
 [docs of the PostgreSQL image](https://github.com/docker-library/docs/blob/master/postgres/README.md#where-to-store-data)
 do a good job of explaining what that means
 
-#### Exercise 2.6 
+#### Exercise 2.6
 
 The following `docker-compose.yaml` does the job.
 
@@ -584,7 +581,7 @@ shows
 
 ![[_20201114_102023screenshot.png"]]
 
-#### Exercise 2.7 
+#### Exercise 2.7
 
 This was an interesting one:
 
@@ -626,9 +623,9 @@ Again, the communication between backend and frontend does not work if I access
 the frontend from outside my Debian VM. Inside the VM, however, it works
 flawlessly:
 
-![[_20201114_111125screenshot.png"]]
+![[_20201114_111125screenshot.png]]
 
-#### Exercise 2.8, 2.9 and 2.10 
+#### Exercise 2.8, 2.9 and 2.10
 
 Finally we're adding a
 [reverse proxy](https://en.wikipedia.org/wiki/Reverse%5Fproxy) to our front- and
@@ -716,7 +713,7 @@ yielding an all-around working application that is accessible simply by
 navigating to `http://localhost` (inside the VM) or `http://192.168.122.67`
 (outside the VM)
 
-![[_20201114_125514screenshot.png"]]
+![[_20201114_125514screenshot.png]]
 
 All that I needed to change for exercise 2.9 was to delete the volumes at the
 end of the `docker-compose` file and change the `postgres` service configuration
@@ -735,7 +732,7 @@ postgres:
 
 Regarding Exercise 2.10: All buttons worked for me as shown above.
 
-## Part 3 
+## Part 3
 
 - CircleCI is a cool tool after you understand what it is doing for you. Every
   `git push` triggers a new build of your containers (and possibly an update of
@@ -747,7 +744,7 @@ Regarding Exercise 2.10: All buttons worked for me as shown above.
 - If you need tools for the build but not for the execution, do a so-called
   multi-stage build
 
-#### Exercise 3.3 
+#### Exercise 3.3
 
 So I'm going with a simply bash script here that takes an argument, namely the
 name of the github repository to clone, to then build the image based the
@@ -851,7 +848,7 @@ docker run -ti -v /var/run/docker.sock:/var/run/docker.sock \
                snatch-n-build:latest docker-hy/docs-exercise
 ```
 
-#### Exercise 3.4, 3.5 & 3.7 
+#### Exercise 3.4, 3.5 & 3.7
 
 - Regarding 3.4 and 3.5, I have already done both of these things at earlier
   stages.
@@ -874,7 +871,7 @@ FROM node:alpine as app
 COPY --from=builder node_modules .
 ```
 
-## Podman as an alternative 
+## Podman as an alternative
 
 Podman seems to solve some of Docker's inherent problems (big fat and often
 rootful daemons, difficult to inspect images berfore pulling them etc.) and is

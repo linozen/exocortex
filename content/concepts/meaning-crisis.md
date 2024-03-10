@@ -19,3 +19,6 @@ Definition from the
 > what can we do about it? Today, there is an increase of people feeling very
 > disconnected from themselves, from each other, from the world, and from a
 > viable and foreseeable future.
+
+Not solving the meaning crisis is probably a
+[[catasthrophic-risk|catastrophic risk]]

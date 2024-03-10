@@ -9,3 +9,6 @@ export { OxHugoFlavouredMarkdown } from "./oxhugofm"
 export { SyntaxHighlighting } from "./syntax"
 export { TableOfContents } from "./toc"
 export { HardLineBreaks } from "./linebreaks"
+
+// Citation plugin
+export { Citations } from "./citations"

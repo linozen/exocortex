@@ -67,3 +67,7 @@ measure of how fast democratic traits decline, is much lower than in previous
 waves:
 
 ![[2020-05-06_13-32-07_screenshot.png]]
+
+## Bibliography
+
+[^ref]

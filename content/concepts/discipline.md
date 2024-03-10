@@ -17,3 +17,7 @@ description: Foucault's understanding of disciplinary modes of power
 > of disciplinary power, whose general formulas, techniques of submitting forces
 > and bodies, in short, 'political anatomy', could be operated in the most
 > diverse political regimes, apparatuses or institutions [@foucault1975, 221]
+
+## Bibliography
+
+[^ref]

@@ -1,5 +1,7 @@
 ---
 title: Internal Family Systems
+tags:
+  - psychotherapy
 ---
 
 A type of [[psychotherapy]] which assumes we are born with parts - none of which
@@ -25,3 +27,4 @@ eating disorders and addiction.
 - Jay Earley's [[earley2012|book on IFS]]
 - [List of podcast](https://ifs-institute.com/resources/podcasts-and-teleconferences)
   with the founder of IFS Robert Schwarz
+	

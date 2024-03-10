@@ -1,8 +1,8 @@
 ---
 title: Self-Therapy (Earley, 2012)
 tags:
-  - therapy/ifs
   - psychology
+  - psychotherapy
 ---
 
 "Self-Therapy" by Jay Earley, published in 2012, is a transformative guide that

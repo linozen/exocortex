@@ -15,7 +15,7 @@ Political Science and the Three New Institutionalisms (Hall & Taylor
 
 rooted in American political science of the 1970s
 
-## (Thin) Definition 
+## (Thin) Definition
 
 Institutions as exogenous constraints on actor’s behaviour, i.e. institutions as
 rule systems or incentive structures that regulate behaviour of rational actors.
@@ -24,7 +24,7 @@ their efforts on an international scale. Further, IIs provide independence
 (which might be useful for "laundering" your position via an independent third
 party) and neutrality (possible arbitrator in conflicts).
 
-## Focus (Two sides of the institutional coin) 
+## Focus (Two sides of the institutional coin)
 
 - **Emergence/Design** of institutions (institutions as dependent variables);
   institutions as solutions to **solve collective action problems** or **to
@@ -36,12 +36,12 @@ party) and neutrality (possible arbitrator in conflicts).
   independent variables); institutions as a Nash equilibrium - none of the
   actors can unilaterally secure a more beneficial outcome for itself.
 
-## Puzzle 
+## Puzzle
 
 - How can one explain the emergence and the effect of IIs given that actors are
   rational and seek to maximise their utility function at all times?
 
-## Core Assumptions of (Neoliberal) Rational Institutionalists 
+## Core Assumptions of (Neoliberal) Rational Institutionalists
 
 - States are key, yet there are other important actors.
 - World politics is decentralised (not one single world government), yet there
@@ -54,7 +54,7 @@ party) and neutrality (possible arbitrator in conflicts).
 - Cooperation is difficult; states shift their resources to institutions if they
   provide states with opportunities to secure their national interests
 
-## Central Concepts 
+## Central Concepts
 
 - **Market failures**: institutional deficiencies that inhibit mutually
   advantageous cooperation
@@ -69,7 +69,7 @@ party) and neutrality (possible arbitrator in conflicts).
   2.  Perfect information
   3.  Zero transaction costs
 
-## Core Argument 
+## Core Argument
 
 - Since, in world politics, none of the assumptions hold, the Coase theorem
   needs to be inverted:
@@ -104,9 +104,9 @@ party) and neutrality (possible arbitrator in conflicts).
       state is powerful enough to maintain the essential rules governing
       interstate relations, and willing to do so" ([Keohane 2012](#org5e359a5))
 
-## Resources 
+## Resources
 
-### Bibliography 
+### Bibliography
 
 <a id="org5e359a5"></a>Keohane, Robert O. 2012. “Twenty Years of Institutional
 Liberalism.” _International Relations_ 26 (2):125–38.

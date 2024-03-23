@@ -13,22 +13,22 @@ Choice Institutionalism]({{< relref "rational-choice-institutionalism" >}}) |
 [Notes on: Political Science and the Three New Institutionalisms (Hall & Taylor
 1996)]({{< relref "hall1996" >}})
 
-## Origin 
+## Origin
 
 1970s organizational literature
 
-## (Thick) Definition 
+## (Thick) Definition
 
 Institutions as social structures composed of cultural-cognitive, normative, and
 regulative elements that provide stability and meaning to social life.
 
-## Focus 
+## Focus
 
 - Explaining isomorphism, i.e. the process of different organisations becoming
   more similar over time, and decoupling, i.e. the difference between formal
   policies and actual organizational practices
 
-## Puzzles 
+## Puzzles
 
 - Why do organisations become more similar over time (and not necessarily more
   efficient)?
@@ -36,6 +36,6 @@ regulative elements that provide stability and meaning to social life.
     organisations adopt the "rationalised myths" (design prescriptions) of their
     environments through _coercive_, _mimetic_, and _normative_ pressures.
 
-## Resources 
+## Resources
 
 <~/Exocortex/bib/library.bib>

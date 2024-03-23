@@ -1,7 +1,8 @@
 ---
 title: Umberto Eco's 4 Rules for Choosing a Topic
 ---
-### Eco's Four Rules for Choosing a Thesis Topic
+
+## Umberto Eco's Four Rules for Choosing a Thesis Topic
 
 1.  _The topic should reflect your previous studies and experience_. In other
     words, do something that you care about and that pertains to your political

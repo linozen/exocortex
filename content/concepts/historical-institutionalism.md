@@ -1,6 +1,9 @@
 ---
 title: Historical Institutionalism
-description: a social science approach that emphasises timing, sequence and path dependence in its analysis of (the absence of) institutional change. Small events can have big impacts
+description:
+  a social science approach that emphasises timing, sequence and path dependence
+  in its analysis of (the absence of) institutional change. Small events can
+  have big impacts
 tags:
   - institutions
   - political-science
@@ -14,8 +17,8 @@ towards a steady state, why did dysfunctional institutions persist. Hence,
 ## Definition of International Institutions (IIs)
 
 HI has as an expansive and textured understanding of which institutions matter
-and how they matter [@hall1996, 937]. IIs are humanly devised rule
-systems that structure and constrain the behaviour of individual actors.
+and how they matter [@hall1996, 937]. IIs are humanly devised rule systems that
+structure and constrain the behaviour of individual actors.
 
 For historical institutionalists, IIs are:
 

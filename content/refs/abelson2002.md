@@ -1,5 +1,6 @@
 ---
-title: Structure and Interpretation of Computer Programs (Abelson & Sussman, 2002)
+title:
+  Structure and Interpretation of Computer Programs (Abelson & Sussman, 2002)
 author:
   - Linus Sehn
 description: The classic introduction to programming with a Lisp

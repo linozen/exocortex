@@ -99,9 +99,9 @@ being called in a crowded room.
 
 ### Posner's spotlight model (1980)
 
-Michael Posner proposed the spotlight model of attention in 1980. According to
-this model, attention is like a spotlight that can be moved around the
-environment to highlight incoming information.
+@posner1980a proposed the spotlight model of attention. According to this model,
+attention is like a spotlight that can be moved around the environment to
+highlight incoming information.
 
 This model suggests that our attentional resources are limited and must be
 allocated selectively. The 'spotlight' can be focused narrowly on a single

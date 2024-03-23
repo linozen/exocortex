@@ -11,7 +11,7 @@ profile = true
 
 Links >> [Discipline]({{< relref "discipline" >}})
 
-## Normality and Normalisation 
+## Normality and Normalisation
 
 In its earliest use, the word _normal_ meant "perpendicular; forming a right
 angle" like something _normālis_ ("made according to a carpenter's square"). In
@@ -96,7 +96,7 @@ summarises it succintly in her contribution to the _Cambridge Foucault Lexicon_:
 fixed norms; rather, by changing the conditions of life of a population, they
 cause changes in the norms themselves." ([Lawlor and Nale 2014](#org1cb2321))
 
-## Annotated Bibliography 
+## Annotated Bibliography
 
 **([Foucault 1975](#org121e9d8))**
 

@@ -1,5 +1,7 @@
 ---
-title: "A third wave of autocratization is here: what is new about it? (Lührmann & Lindberg, 2019)"
+title:
+  "A third wave of autocratization is here: what is new about it? (Lührmann &
+  Lindberg, 2019)"
 description: Gradual and legally disguised erosion of democractic institutions
 tags:
   - paper

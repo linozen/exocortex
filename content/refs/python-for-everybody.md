@@ -7,23 +7,23 @@ tags:
   - computer-science
 ---
 
-## Getting Started 
+## Getting Started
 
-### Reference Material 
+### Reference Material
 
 The course materials can be accessed on the
 [course website](https://www.py4e.com/). This is also where you find the
 [textbook](https://www.py4e.com/book) to go along with the course
 
-### Introduction 
+### Introduction
 
-#### Why Program? 
+#### Why Program?
 
 - become a creator of technology, don't just be a consumer of it
 - computers want to be helpful (What do you want to do next?)
 - a programmer's job is to intermediate between the hardware and the user
 
-#### Hardware Overview 
+#### Hardware Overview
 
 ![[hardware.png]]
 
@@ -34,12 +34,12 @@ The course materials can be accessed on the
 - compiler and interpreter to the translation of the human-readable program code
   to machine code
 
-#### Python as a Language 
+#### Python as a Language
 
 - invented by Guido van Rossum
 - named after Monty Python (enjoyable but powerful)
 
-#### Reserved Words 
+#### Reserved Words
 
 - you cannot use keywords as variable names
 
@@ -61,7 +61,7 @@ print(keyword.kwlist)
 - programs can be sequential, conditional (often nested) or repeated (often use
   iteration variables to make sure that the loop does not run infinitely)
 
-#### The Building Blocks of a Program 
+#### The Building Blocks of a Program
 
 The following are part of every programming language (even machine code):
 
@@ -76,9 +76,9 @@ The following are part of every programming language (even machine code):
 - **reuse:** Write a set of instructions once and then reuse as needed
   throughout the program
 
-#### Different Error Types 
+#### Different Error Types
 
-##### Syntax errors 
+##### Syntax errors
 
 These are the first errors you will make and the easiest to fix. A syntax error
 means that you have violated the "grammar" rules of Python. Python does its best
@@ -88,7 +88,7 @@ is actually earlier in the program than where Python noticed it was confused. So
 the line and character that Python indicates in a syntax error may just be a
 starting point for your investigation.
 
-##### Logic errors 
+##### Logic errors
 
 A logic error is when your program has good syntax but there is a mistake in the
 order of the statements or perhaps a mistake in how the statements relate to one
@@ -96,7 +96,7 @@ another. A good example of a logic error might be, "take a drink from your water
 bottle, put it in your backpack, walk to the library, and then put the top back
 on the bottle."
 
-##### Semantic errors 
+##### Semantic errors
 
 A semantic error is when your description of the steps to take is syntactically
 perfect and in the right order, but there is simply a mistake in the program.
@@ -112,7 +112,7 @@ mile at the gas station." Then you say, "I am very sorry, because while my
 instructions were syntactically correct, they sadly contained a small but
 undetected semantic error.".
 
-#### Debugging 
+#### Debugging
 
 four basic strategies that complement each other (if one does not work, try the
 next):
@@ -127,9 +127,9 @@ next):
     recent changes until you arrive at a program that you understand and that
     works as intended.
 
-### Variables, Expressions and Statements 
+### Variables, Expressions and Statements
 
-#### Values and Types 
+#### Values and Types
 
 ```python
 print(type("I'm the value"))
@@ -143,7 +143,7 @@ print(type("3.2")
 <class 'float'> # This is another type
 ```
 
-#### Variables 
+#### Variables
 
 One of the most powerful features of a programming language is the ability to
 manipulate variables. A variable is a name that refers to a value. The
@@ -161,12 +161,12 @@ print(pay)
 
 - illegal variable names give a syntax error
 
-#### Statements 
+#### Statements
 
 A _statement_ is just a unit of code that the Python interpreter can execute.
 _Scripts_ are usually a sequence of statements.
 
-#### Operators and Operands 
+#### Operators and Operands
 
 _Operators_ are defined as special symbols that stand in for computations such
 as addition, subtraction, multiplication and division. _Operands_ are the values
@@ -205,7 +205,7 @@ print(result)
 0
 ```
 
-#### Expressions 
+#### Expressions
 
 An _expression_ is a combination of values, variables and operators. But a value
 all by itself (or a variable - assuming it has a value assigned to it) are also
@@ -213,14 +213,14 @@ valid expressions. Expressions are _evaluated_ in interactive mode and the
 results are displayed. In a script, however, expressions by themselves do not
 produce output.
 
-#### Order of Operations 
+#### Order of Operations
 
 The order of evaluation depends on the rules of precedence. Remember **PEDMAS**:
 
 \*P\*arentheses \*E\*xponentiation \*M\*ultiplication \*D\*ivision \*A\*ddition
 \*S\*ubstraction
 
-#### Modulus Operators 
+#### Modulus Operators
 
 This operator works on values of the type `int` and yields the remainder when
 the first operand is divided by the second.
@@ -238,7 +238,7 @@ print(remainder)
 1
 ```
 
-#### String Operations 
+#### String Operations
 
 The `+`-operator works with strings, it _concatenates_ them, i.e. it joins them
 together.
@@ -255,7 +255,7 @@ Hi, my name is Linus
 LinusLinus
 ```
 
-#### Asking the User for Input 
+#### Asking the User for Input
 
 There is a built-in function called `input` which stops the program and waits
 for the user to type something. When the user presses `Return`, the program
@@ -283,9 +283,9 @@ fahrenheit = ( int(celsius) / (5/9) ) + 32
 print(fahrenheit)
 ```
 
-### Conditional Execution 
+### Conditional Execution
 
-#### Boolean Expressions 
+#### Boolean Expressions
 
 [Boolean](https://en.wikipedia.org/wiki/George%5FBoole) expressions are
 expressions that are either `True` or `False`.
@@ -316,7 +316,7 @@ x is y   # x is the same as y
 x is not y   # x is not the same as y
 ```
 
-#### Logical Operators 
+#### Logical Operators
 
 There are three: `and` (something is `True` only if both operands are `True`),
 `or` (`True` if either of the operands is `True`) and `not` (negation of the
@@ -335,7 +335,7 @@ print(False or 17)  #17
 print(False or 0)   #0
 ```
 
-#### Conditional Execution 
+#### Conditional Execution
 
 We often need to check certain conditions, and then adapt our program to those
 conditions.
@@ -347,7 +347,7 @@ if x > 0 :
 
 ![[if_logic.png]]
 
-#### Alternative Execution 
+#### Alternative Execution
 
 A check of the condition leads down exactly one of either of two so-called
 _branches_
@@ -361,7 +361,7 @@ else :
 
 ![[if_then_else_logic.png]]
 
-#### Chained Conditionals 
+#### Chained Conditionals
 
 If I want to include more possible branches, I need the `elif`-statement. Each
 condition is checked after the last, if one of them is `True`, the branch
@@ -379,7 +379,7 @@ elif choice == 'c':
 
 ![[if_then_elseif_logic.png]]
 
-#### Nested Conditionals 
+#### Nested Conditionals
 
 You can _nest_ branches into one another as follows.
 
@@ -395,7 +395,7 @@ else:
 
 ![[nested_if.png]]
 
-#### Catching Exceptions using Try and Except 
+#### Catching Exceptions using Try and Except
 
 `try` and `except` are Python's built-in insurance policy against errors. Only
 if (any) error occurs in the `try`-block, Python jumps directly to the
@@ -414,7 +414,7 @@ except:
     print('Please enter a number')
 ```
 
-#### Short-circuit Evaluation of Logical Expressions 
+#### Short-circuit Evaluation of Logical Expressions
 
 Consider the following code:
 
@@ -466,9 +466,9 @@ print(str(x >= 2 and y != 0 and (x/y) > 2))
 In this case, `y !` 0= acts as a guard against evaluating `(x/y) > 2` when `y`
 is equal to zero.
 
-### Functions 
+### Functions
 
-#### Function Calls 
+#### Function Calls
 
 At its most basic, a _function_ is a named sequence of statements performing a
 computation. After having specified the statements, you can _call_ a (built-in)
@@ -488,9 +488,9 @@ w
 11
 ```
 
-#### Important Built-in Functions 
+#### Important Built-in Functions
 
-##### Type conversion 
+##### Type conversion
 
 `int` converts floating-point numbers and (the right kind of) strings to
 integers:
@@ -533,7 +533,7 @@ str(3.1415926)
 "3.1415926"
 ```
 
-##### Math functions 
+##### Math functions
 
 Python ships with a math module that must be imported before it can be used:
 
@@ -579,7 +579,7 @@ print(math.sin(radians))
 0.7071067811865475
 ```
 
-##### Making Random Numbers 
+##### Making Random Numbers
 
 This turns out to be a pretty hard task for most computers as we generally want
 them to behave deterministically. When generating random numbers, this is a
@@ -631,7 +631,7 @@ random.choice(t)
 2
 ```
 
-#### Adding New Functions 
+#### Adding New Functions
 
 In order to add functions that we can reuse throughout our program, we need to
 _define_ them using so-called _function definitions_:
@@ -669,7 +669,7 @@ I'm a lumberjack, and I'm okay.
 I sleep all night and work all day.
 ```
 
-#### Flow of Execution 
+#### Flow of Execution
 
 Functions can only be called _after_ they are defined. Function definitions, on
 the other hand, do not alter the execution flow (statement after statement from
@@ -679,7 +679,7 @@ not executed until the function is called.
 When reading a program, try to follow the flow of execution rather than trying
 to read it top to bottom.
 
-#### Parameters and Arguments 
+#### Parameters and Arguments
 
 You can pass _arguments_ to functions, e.g. when you call
 `math.sin(some numeric argument)`. Inside the functions, the arguments are
@@ -704,7 +704,7 @@ print_twice(math.cos(math.pi))
 Here, it is interesting to note, that the expression `math.cos(math.pi)` is only
 evaluated once (and then printed twice).
 
-#### Fruitful Functions and Void Functions 
+#### Fruitful Functions and Void Functions
 
 In a script some functions are void, i.e. they do not return anything and when
 you try to assign them to a value you get a special value called `None`:
@@ -734,7 +734,7 @@ print(x)
 12
 ```
 
-#### Why Functions? 
+#### Why Functions?
 
 - Grouping statements in your program into functional units makes it easier to
   read, understand and debug.
@@ -742,9 +742,9 @@ print(x)
 - Once debugged, well-designed functions can be repurposed within the same
   program and across other programs.
 
-### Iteration 
+### Iteration
 
-#### The `while` statement 
+#### The `while` statement
 
 This statement first evaluates the condition. If it is false, it exits the
 `while`-statement and continues at the next statment. If the condition is true,
@@ -767,7 +767,7 @@ print('Blastoff!')
 Blastoff!
 ```
 
-#### Infinite Loops 
+#### Infinite Loops
 
 If a the condition is always true, the loop will execute until your battery runs
 out - unless you make use of `break` to define a specific exit condition within
@@ -785,7 +785,7 @@ while True:
 print('Done!')
 ```
 
-#### Finish an Iteration Early 
+#### Finish an Iteration Early
 
 If you want to exit an iteration early (but do not want to exit the entire
 loop), you can use the `continue`-statement. The following code illustrates that
@@ -802,7 +802,7 @@ while True:
 print('Done!')
 ```
 
-#### Definite Loops Using `for` 
+#### Definite Loops Using `for`
 
 you can loop through a _set_ of things constructing a _definitive_ loop using
 the `for`-statement.
@@ -824,9 +824,9 @@ Done!
 In the code above, `friend` is the _iteration variable_, it steps successively
 through the items in stored in `friends`.
 
-#### Loop Patterns 
+#### Loop Patterns
 
-##### Counting and Summing Loops 
+##### Counting and Summing Loops
 
 In order to count the number of items in a list, the following `for`-loop might
 be used:
@@ -851,7 +851,7 @@ A variables such as `total` in the code snippet above is called _accumulator_.
 We won't need either of the two programs above in practice as we have the
 built-in functions `len()` and `sum()`.
 
-##### Maximum and Minimum Loops 
+##### Maximum and Minimum Loops
 
 To emulate what the built-in function `max()` does, we can start with the
 following code:
@@ -891,7 +891,7 @@ for itervar in [3, 41, 12, 9, 74, 15]:
 print('Smallest:', smallest)
 ```
 
-#### Debugging by Bisection 
+#### Debugging by Bisection
 
 When debugging loops always try to check in the middle of the code (if
 possible). For example, add a print statement in the middle of a loop and check
@@ -926,9 +926,9 @@ avg = total / count
 print('total: ' + str(total) + "\ncount: " + str(count) + "\naverage: " + str(avg))
 ```
 
-## Data Structures 
+## Data Structures
 
-### Strings 
+### Strings
 
 A string is a _sequence_ of characters (all unicode in Python 3). Individual
 characters can be accessed using the bracket operator. Be aware that the index
@@ -952,7 +952,7 @@ It only works if you substract 1 from `length`:
 IndexError: string index out of range
 ```
 
-#### Traversal through a string with a loop 
+#### Traversal through a string with a loop
 
 You can _traverse_ a string (stepping through it, looking at and possibly doing
 something with each character) with a `while` loop:
@@ -983,14 +983,14 @@ for char in fruit:
     print(char)
 ```
 
-#### String Slices 
+#### String Slices
 
 If you only want to access a segment of a string, a so-called _slice_, you again
 use the bracket operator. The following image shows how that is done:
 
 ![[string_slicing.png]]
 
-#### Strings are Immutable 
+#### Strings are Immutable
 
 This basically means that you cannot change a single character within the string
 without reassigning the entire string:
@@ -1010,7 +1010,7 @@ What you can do is:
 Jello, world!
 ```
 
-#### Looping and Counting 
+#### Looping and Counting
 
 The following function for instance loops through a string and counts the
 occurrences of a character given as an argument:
@@ -1024,7 +1024,7 @@ def count_char(word, letter):
     print(count)
 ```
 
-#### The `in` Operator 
+#### The `in` Operator
 
 The `in` operator just return a boolean value if the first operand is a
 substring of the second operand:
@@ -1034,7 +1034,7 @@ substring of the second operand:
 True
 ```
 
-#### String Comparison 
+#### String Comparison
 
 Check whether two strings are equal:
 
@@ -1062,7 +1062,7 @@ word_sort("Colibri")
 'Your word, Colibri, comes before banana.'
 ```
 
-#### String Methods 
+#### String Methods
 
 You can use the `dir` function to list the _methods_ (i.e. built-in functions
 that are available to any instance of an object):
@@ -1126,7 +1126,7 @@ If you want to make a case-insensitive search, you can chain `.lower()` and
 True
 ```
 
-#### Parsing Strings 
+#### Parsing Strings
 
 You can use `.find()` to extract only the substrings of interest (like the hosts
 in an e-mail header):
@@ -1145,7 +1145,7 @@ uct.ac.za
 >>>
 ```
 
-#### Format Operator 
+#### Format Operator
 
 With the _format_ operator, `%`, you are able to construct strings and
 dynamically replace values within it with data stored in other variables. An
@@ -1165,9 +1165,9 @@ You can use different formatting like `%d` for integers, `%g` for decimals and
 'In 3 years I have spotted 0.1 camels.'
 ```
 
-### Files 
+### Files
 
-#### Opening Files 
+#### Opening Files
 
 When opening files, you are accessing (reading or writing) secondary memory. In
 Python, you use the `open()` function to do that. If it successfully opens a
@@ -1182,7 +1182,7 @@ the file:
 
 All the mentioned files should be available [here](https://www.py4e.com/code3/).
 
-#### Reading Files 
+#### Reading Files
 
 As mentioned already, the _file handle_ does not really contain the data, it is
 just reference to it. However, you can easily create a `for` loop to count the
@@ -1214,7 +1214,7 @@ we can use the `.read()` method on the file handle.
 From stephen.marquar
 ```
 
-#### Searching Through a File 
+#### Searching Through a File
 
 To print only the lines that start with "From:", you can use the following code
 combining the patterns for reading a file with the string methods from the last
@@ -1302,7 +1302,7 @@ Author: david.horwitz@uct.ac.za
 ...
 ```
 
-#### Letting the User Choose the File Name 
+#### Letting the User Choose the File Name
 
 The following code asks the user to input the file name:
 
@@ -1325,7 +1325,7 @@ Obviously, the code above does not know how to handle unexpected or faulty user
 input gracefully. To solve this, remember what `try` and `expect` can do for
 you.
 
-#### Using `try`, `except` and `open` 
+#### Using `try`, `except` and `open`
 
 We can use the aforementioned error handling structures to fix the flaw in the
 program:
@@ -1354,7 +1354,7 @@ Enter the file name: na na boo boo
 File cannot be opened: na na boo boo
 ```
 
-#### Writing Files 
+#### Writing Files
 
 If you want to write a file, i.e. change it using Python, you have to open it
 with "w" as a second parameter:
@@ -1398,7 +1398,7 @@ test
 test2
 ```
 
-#### Dealing with the Invisible 
+#### Dealing with the Invisible
 
 Errors through whitespace can sometimes be hard to debug because, spaces, tabs
 and newlines are normally invisible:
@@ -1418,7 +1418,7 @@ the object
 '1 2\t 3\n 4'
 ```
 
-##### Exercises 
+##### Exercises
 
 The exercises in this chapter are the first ones interesting enough to be worked
 through in detail:
@@ -1524,7 +1524,7 @@ except FileNotFoundError:
     print('File cannot be openend: ', fname)
 ```
 
-### Lists 
+### Lists
 
 Similar to strings, _lists_ are also sequences of values. While in a string the
 values are characters, they can be of any type in a list. The values of lists
@@ -1535,7 +1535,7 @@ the same type; they can even be lists themselves (i.e. nested lists):
 ['spam', 2.0, 5, [10, 20]]
 ```
 
-#### Lists are Mutable 
+#### Lists are Mutable
 
 Unlike strings, lists are mutable. Using the known bracket operator, we can
 access and change the elements of a list:
@@ -1558,7 +1558,7 @@ The `in` operator also works on lists:
 True
 ```
 
-#### Traversing a List 
+#### Traversing a List
 
 Most commonly, you will use a `for` loop:
 
@@ -1580,7 +1580,7 @@ for i in range(len(numbers)):
 Although a list can contain another list, the nested list will still count as a
 single element.
 
-#### List Operations 
+#### List Operations
 
 You can concatenate lists using the `+` operator:
 
@@ -1601,7 +1601,7 @@ The `*` operator repeats the list n times
 [1, 2, 3, 1, 2, 3, 1, 2, 3]
 ```
 
-#### List Slices 
+#### List Slices
 
 You can use the slice operator on lists:
 
@@ -1635,7 +1635,7 @@ a copy of the unchanged list is kept:
 ['a', 'x', 'y', 'd', 'e', 'f']
 ```
 
-#### List Methods 
+#### List Methods
 
 One of the most important methods for list-objects is the `.append()` method
 which adds a new element to the end of a list.
@@ -1674,7 +1674,7 @@ None
 ['a', 'b', 'c', 'd', 'e']
 ```
 
-#### Deleting Elements 
+#### Deleting Elements
 
 You can delete elements from lists in several different ways. If you know the
 index, use the `.pop()` method which, if no index is given, it just deletes and
@@ -1716,7 +1716,7 @@ None
 ['a', 'f']
 ```
 
-#### Lists and Functions 
+#### Lists and Functions
 
 There are a number of useful built-in functions that work on lists. `max()` and
 `len()` work with lists that contain elements of all (comparable) types. The
@@ -1767,7 +1767,7 @@ average = sum(numlist) / len(numlist)
 print('Average:', average)
 ```
 
-#### Lists and Strings 
+#### Lists and Strings
 
 Converting a string (sequence of characters) to a list (sequence of values) is
 easy using the built-in `list` function:
@@ -1811,7 +1811,7 @@ invoked on the delimiter:
 'pining for the fjords'
 ```
 
-#### Parsing Lines Using `.split()` 
+#### Parsing Lines Using `.split()`
 
 The `.split()` method is very helpful if you want to do something other than
 printing whole lines when reading a file. You can find the "interesting" lines
@@ -1835,7 +1835,7 @@ Fri
 ...
 ```
 
-#### Objects and Values 
+#### Objects and Values
 
 When assigning `a` and `b` to the same string, Python only creates _one_ string
 object and both `a` and `b` refer to it:
@@ -1858,7 +1858,7 @@ same object):
 False
 ```
 
-#### Aliasing 
+#### Aliasing
 
 However, if a refers to a (list) object, and you assign `b = a`, then both
 variables reference the same object:
@@ -1884,7 +1884,7 @@ the other:
 While sometimes useful, you should avoid aliasing mutable objects. Aliasing
 immutable object is not such a big deal as it hardly ever makes a difference.
 
-#### List Arguments 
+#### List Arguments
 
 The following function `delete_head` removes the first element from a list:
 
@@ -1947,14 +1947,14 @@ This function leaves the original list unmodified:
 ['b', 'c']
 ```
 
-##### Exercise 8.1: 
+##### Exercise 8.1:
 
 Write a function called chop that takes a list and modifies it, removing the
 first and last elements, and returns None. Then write a function called middle
 that takes a list and returns a new list that contains all but the first and
 last elements.
 
-##### Solution 
+##### Solution
 
 ```python
 t1 = ["a", "b", "c"]
@@ -1978,9 +1978,9 @@ None
 ['b']
 ```
 
-#### Pitfalls 
+#### Pitfalls
 
-##### List Methods Returning None 
+##### List Methods Returning None
 
 Most list methods return `None`, so the following does not make much sense:
 
@@ -1988,7 +1988,7 @@ Most list methods return `None`, so the following does not make much sense:
 t = t.sort()           # WRONG
 ```
 
-##### Pick an Idiom (and Stick with it) 
+##### Pick an Idiom (and Stick with it)
 
 Pick one way to do things and stick to it. With lists there are often too many
 ways to do the same thing (e.g. =pop=, `remove`, `del` and even slice
@@ -2011,7 +2011,7 @@ t + [x]                # does not modify the list
 t = t + x              # if x is not a list, this returns a TypeError
 ```
 
-##### Make Copies 
+##### Make Copies
 
 If you want to use a method like `sort`, but you want to keep the original
 (unsorted) list, you should make a copy:
@@ -2021,7 +2021,7 @@ orig = t[:]
 t.sort()
 ```
 
-##### Lists, `split` and Files 
+##### Lists, `split` and Files
 
 Consider the following code to parse the weekdays from a text file and the error
 message we get when running it:
@@ -2078,14 +2078,14 @@ for line in fhand:
     print(words[2])
 ```
 
-##### Exercise 8.2 
+##### Exercise 8.2
 
 Figure out which line of the above program is still not properly guarded. See if
 you can construct a text file which causes the program to fail and then modify
 the program so that the line is properly guarded and test it to make sure it
 handles your new text file.
 
-##### Solution 
+##### Solution
 
 There is the possibility that a line just has the word "From" in it. Then our
 little program throws us another IndexError because `words[2]` will be out of
@@ -2098,13 +2098,13 @@ if len(words) < 2 : continue
 ...
 ```
 
-##### Exercise 8.3 
+##### Exercise 8.3
 
 Rewrite the guardian code in the above example without two if statements.
 Instead, use a compound logical expression using the or logical operator with a
 single if statement.
 
-##### Solution 
+##### Solution
 
 ```python
 fhand = open('mbox-short-alt.txt')
@@ -2116,7 +2116,7 @@ for line in fhand:
     print(words[2])
 ```
 
-##### Exercise 8.4 
+##### Exercise 8.4
 
 Write a program to open the file
 [romeo.txt](https://www.py4e.com/code3/romeo.txt) and read it line by line. For
@@ -2125,7 +2125,7 @@ each word, check to see if the word is already in a list. If the word is not in
 the list, add it to the list. When the program completes, sort and print the
 resulting words in alphabetical order.
 
-##### Solution 
+##### Solution
 
 ```python
 wordlist = []
@@ -2139,7 +2139,7 @@ sorted_words = sorted(wordlist)
 print(sorted_words)
 ```
 
-##### Exercise 8.5 
+##### Exercise 8.5
 
 Write a program to read through the mail box data and when you find line that
 starts with "From", you will split the line into words using the `split`
@@ -2148,7 +2148,7 @@ the From line. You will parse the From line and print out the second word for
 each From line, then you will also count the number of From (not From:) lines
 and print out a count at the end.
 
-##### Solution 
+##### Solution
 
 ```python
 fhand = open('mbox-short.txt')
@@ -2162,7 +2162,7 @@ for line in fhand:
 print("There were", count, "lines in the file with From as the first word")
 ```
 
-##### Exercise 8.6 
+##### Exercise 8.6
 
 Rewrite the program that prompts the user for a list of numbers and prints out
 the maximum and minimum of the numbers at the end when the user enters "done".
@@ -2170,7 +2170,7 @@ Write the program to store the numbers the user enters in a list and use the
 `max()` and `min()` functions to compute the maximum and minimum numbers after
 the loop completes.
 
-##### Solution 
+##### Solution
 
 ```python
 num_list = []
@@ -2185,7 +2185,7 @@ while True:
 print("Maximum:", max(num_list), "\nMinimum:", min(num_list))
 ```
 
-### Dictionaries 
+### Dictionaries
 
 A dictionary is similar to a list, but less restrictive. While in lists, the
 indeces have to be integers, they can be of (almost) any type in dictionaries.
@@ -2255,14 +2255,14 @@ use the following workaround:
 True
 ```
 
-##### Exercise 9.1 
+##### Exercise 9.1
 
 Write a program that reads the words in
 [words.txt](https://www.py4e.com/code3/words.txt) and stores them as keys in a
 dictionary. It doesn't matter what the values are. Then you can use the `in`
 operator as a fast way to check whether a string is in the dictionary.
 
-##### Solution 
+##### Solution
 
 ```python
 word_dict = dict()
@@ -2277,7 +2277,7 @@ for line in fhand:
 print(word_dict)
 ```
 
-#### Dictionaries as Sets of Counters 
+#### Dictionaries as Sets of Counters
 
 With dictionaries, we can now implement a more elegant solution to the problem
 of counting the occurrence of characters within any given string:
@@ -2323,7 +2323,7 @@ for c in word:
 print(d)
 ```
 
-#### Dictionaries and Files 
+#### Dictionaries and Files
 
 You can use dictionaries to count the occurrence of words in a text file (For
 now, this uses a version of the romeo.txt file that has now punctuation):
@@ -2359,7 +2359,7 @@ Enter the file name: romeo.txt
 'kill': 1, 'the': 3, 'soft': 1, 'Juliet': 1}
 ```
 
-#### Looping Through Dictionaries 
+#### Looping Through Dictionaries
 
 As it is not very convenient to look through the output above, let's write a
 `for` loop that traverses the dictionary and prints the key-value pairs.
@@ -2400,7 +2400,7 @@ for value in lst:
 100 jan
 ```
 
-#### Advanced Text Parsing 
+#### Advanced Text Parsing
 
 In order to deal with the punctuation in the real
 [romeo.txt](https://www.py4e.com/code3/romeo.txt) file, you need string methods.
@@ -2462,7 +2462,7 @@ a': 24, 'orchard': 2, 'light': 5, 'lovers': 2, 'romeo': 40,
 'it': 22, 'leans': 1, 'canst': 1, 'having': 1, ...}
 ```
 
-#### Debugging Dictionaries 
+#### Debugging Dictionaries
 
 **Scale Down the Input** For instance, modify your program such that it only
 reads the first `n` lines. If there is an error, reduce `n` to the smallest
@@ -2479,7 +2479,7 @@ larger than the largest element of a list or less than the smallest.
 error. The time you spend building good scaffolding reduces the time you spend
 debugging.
 
-##### Exercise 9.2 
+##### Exercise 9.2
 
 Write a program that categorizes each mail message by which day of the week the
 commit was done. To do this look for lines that start with "From", then look for
@@ -2487,7 +2487,7 @@ the third word and keep a running count of each of the days of the week. At the
 end of the program print out the contents of your dictionary (order does not
 matter).
 
-##### Solution 
+##### Solution
 
 ```python
 fname = input('Enter the file name: ')
@@ -2512,13 +2512,13 @@ Enter the file name: mbox.txt
 {'Sat': 61, 'Fri': 315, 'Thu': 392, 'Wed': 292, 'Tue': 372, 'Mon': 299, 'Sun': 66}
 ```
 
-##### Exercise 9.3 
+##### Exercise 9.3
 
 Write a program to read through a mail log, build a histogram using a dictionary
 to count how many messages have come from each email address, and print the
 dictionary.
 
-##### Solution 
+##### Solution
 
 ```python
 fname = input('Enter the file name: ')
@@ -2546,7 +2546,7 @@ Enter the file name: mbox-short.txt
  'gopal.ramasammycook@gmail.com': 1, 'david.horwitz@uct.ac.za': 4, 'ray@media.berkeley.edu': 1}
 ```
 
-##### Exercise 9.4 
+##### Exercise 9.4
 
 Add code to the above program to figure out who has the most messages in the
 file. After all the data has been read and the dictionary has been created, look
@@ -2554,7 +2554,7 @@ through the dictionary using a maximum loop (see Chapter 5: Maximum and minimum
 loops) to find who has the most messages and print how many messages the person
 has.
 
-##### Solution 
+##### Solution
 
 ```python
 fname = input('Enter the file name: ')
@@ -2595,13 +2595,13 @@ Enter a file name: mbox.txt
 zqian@umich.edu 195
 ```
 
-##### Exercise 9.5 
+##### Exercise 9.5
 
 This program records the domain name (instead of the address) where the message
 was sent from instead of who the mail came from (i.e., the whole email address).
 At the end of the program, print out the contents of your dictionary.
 
-##### Solution 
+##### Solution
 
 ```python
 fname = input('Enter the file name: ')
@@ -2624,9 +2624,9 @@ for line in fhand:
 print(host_count)
 ```
 
-### Tuples 
+### Tuples
 
-#### Immutability of Tuples 
+#### Immutability of Tuples
 
 Again, when dealing with tuples, you are dealing with a sequence of values; they
 can be of any type and are indexed by integers. In contrasts to lists, however,
@@ -2666,7 +2666,7 @@ print(t)
 ('L', 'u', 'p', 'i', 'n', 's')
 ```
 
-#### Comparing Tuples 
+#### Comparing Tuples
 
 The comparison operators work with two tuples (or two lists, two strings etc.).
 To begin with, the first elements are compared. If they are equal, it compares
@@ -2716,7 +2716,7 @@ for length, word in t:
 print(res)
 ```
 
-#### Tuple Assignment 
+#### Tuple Assignment
 
 A cool syntactic feature of Python is that you can have a tuple on the left side
 of an assignment statement:
@@ -2749,7 +2749,7 @@ In fact, we can do the same with other kinds of sequences:
 >>> uname, domain = addr.split('@')
 ```
 
-#### Dictionaries and Tuples 
+#### Dictionaries and Tuples
 
 You can use the dictionary method `.item()` to return a list of tuples
 representing the key-value pairs in the dictionary:
@@ -2774,7 +2774,7 @@ sorted by key:
 [('a', 10), ('b', 1), ('c', 22)]
 ```
 
-#### Multiple Assignments with Dictionaries 
+#### Multiple Assignments with Dictionaries
 
 Combining the `.items()` method with a `for` loop gives you a nice coding
 patterns for traversing the keys and values of a dictionary in a single loop
@@ -2825,7 +2825,7 @@ for key, val in lst[:10]:
     print(key, val)
 ```
 
-#### Using Tuples as Keys in Dictionaries 
+#### Using Tuples as Keys in Dictionaries
 
 Because lists are not _hashable_, you need to use tuples if you want to create
 what's know as a _composite_ key in a dictionary. Think of a phonebook as
@@ -2842,7 +2842,7 @@ for last, first in directory:
     print(first, last, directory[last,first])
 ```
 
-#### How to Choose the Right Data Structure 
+#### How to Choose the Right Data Structure
 
 Say you need a data structure to store a collection of customer records. The
 consideration you need to make before choosing the data structure are the
@@ -2865,7 +2865,7 @@ While tuples are immutable and thus don't provide methods such as `.sort()` or
 `.reverse()`, you can still use the built-in functions `sorted` and `reversed`
 to do the job.
 
-##### Exercise 10.1 
+##### Exercise 10.1
 
 Revise a previous program as follows: Read and parse the "From" lines and pull
 out the addresses from the line. Count the number of messages from each person
@@ -2875,7 +2875,7 @@ After all the data has been read, print the person with the most commits by
 creating a list of (count, email) tuples from the dictionary. Then sort the list
 in reverse order and print out the person who has the most commits.
 
-##### Solution 
+##### Solution
 
 ```python
 fname = input('Enter the file name: ')
@@ -2902,7 +2902,7 @@ res = lst[0]
 print(res[1], res[0])
 ```
 
-##### Exercise 10.2 
+##### Exercise 10.2
 
 This program counts the distribution of the hour of the day for each of the
 messages. You can pull the hour from the "From" line by finding the time string
@@ -2910,7 +2910,7 @@ and then splitting that string into parts using the colon character. Once you
 have accumulated the counts for each hour, print out the counts, one per line,
 sorted by hour as shown below.
 
-##### Solution 
+##### Solution
 
 ```python
 fname = input('Enter the file name: ')
@@ -2933,7 +2933,7 @@ for k, v in hour_count.items():
     print(k, v)
 ```
 
-##### Exercise 10.3 
+##### Exercise 10.3
 
 Write a program that reads a file and prints the letters in decreasing order of
 frequency. Your program should convert all the input to lower case and only
@@ -2943,7 +2943,7 @@ several different languages and see how letter frequency varies between
 languages. Compare your results with the tables at
 <https://wikipedia.org/wiki/Letter%5Ffrequencies>.
 
-##### Solution 
+##### Solution
 
 ```python
 import string
@@ -2982,9 +2982,9 @@ for i in lst:
     print(letter, freq, rel_freq)
 ```
 
-## Web Data 
+## Web Data
 
-### Regular Expressions 
+### Regular Expressions
 
 Until now, you know how to use built-in functions to extract text from a file or
 a line that interests us. There is a thing called _regular expressions_ that
@@ -3015,7 +3015,7 @@ for line in hand:
         print(line)
 ```
 
-#### Character Matching 
+#### Character Matching
 
 The most commonly used _special character_ is the period (`.`), which matches
 any character (thus, it is a _wild card_ character). Then, there is the `+`
@@ -3061,7 +3061,7 @@ for line in hand:
         print(line)
 ```
 
-#### Extracting Data 
+#### Extracting Data
 
 In order to extract data using regular expressions, you can use the `findall()`
 method which searches the string in the second argument and returns a list of
@@ -3141,7 +3141,7 @@ for line in hand:
 ['apache@localhost']
 ```
 
-#### Combining Searching and Extracting 
+#### Combining Searching and Extracting
 
 Let's say you are interested in the following lines:
 
@@ -3211,7 +3211,7 @@ for line in hand:
 ...
 ```
 
-#### Escape Character 
+#### Escape Character
 
 Since there are a lot of special characters in regular expressions, what if you
 want to match one of those in the "normal" way. You can do this by simply
@@ -3223,7 +3223,7 @@ x = 'We just received $10.00 for cookies.'
 y = re.findall('\$[0-9.]+',x)
 ```
 
-#### Summary 
+#### Summary
 
 | RegEx       | Description                                                                                                                    |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -3247,7 +3247,7 @@ y = re.findall('\$[0-9.]+',x)
 | `\d`        | matches any digit (i.e. 0-9)                                                                                                   |
 | `\D`        | matches any non-digit                                                                                                          |
 
-##### Exercise 11.1 
+##### Exercise 11.1
 
 Write a simple program to simulate the operation of the grep command on Unix.
 Ask the user to enter a regular expression and count the number of lines that
@@ -3267,7 +3267,7 @@ Enter a regular expression: java$
 mbox.txt had 4175 lines that matched java$
 ```
 
-##### Solution 
+##### Solution
 
 ```python
 import re
@@ -3283,7 +3283,7 @@ for line in fhand:
 print('mbox.txt had %d lines that matched %s' % (count, regexp))
 ```
 
-##### Exercise 11.2 
+##### Exercise 11.2
 
 Write a program to look for lines of the form:
 
@@ -3303,7 +3303,7 @@ Enter file:mbox-short.txt
 39756
 ```
 
-##### Solution 
+##### Solution
 
 ```python
 import re
@@ -3322,9 +3322,9 @@ avg = total / len(lst)
 print(int(avg))
 ```
 
-### Network Programming 
+### Network Programming
 
-#### A Simple Web Browser 
+#### A Simple Web Browser
 
 The following code makes a connection to a web server (in this case
 `data.pr4e.org` on port 80). It follows the Hypertext Transfer Protocol (HTTP)
@@ -3475,7 +3475,7 @@ Connection: close
 Content-Type: image/jpeg
 ```
 
-#### Retrieving Webpages Using `urllib` 
+#### Retrieving Webpages Using `urllib`
 
 Whilst it is possible to receive data via the socket library, it is much easier
 using the `urllib` library which retrieves webpages much like a file. So, in
@@ -3499,7 +3499,7 @@ Who is already sick and pale with grief
 
 A bit simpler, isn't it?
 
-#### Retrieving Binary Files Using `urllib` 
+#### Retrieving Binary Files Using `urllib`
 
 In order to retrieve a non-text (i.e. binary) file (e.g. image or video), first
 write the entire contents of the document into a string variable and then write
@@ -3535,7 +3535,7 @@ print(size, 'characters copied.')
 fhand.close()
 ```
 
-#### Parsing HTML Using Regular Expressions 
+#### Parsing HTML Using Regular Expressions
 
 Most websites use Hypertext Markup Language (HTML) for displaying information.
 With some knowledge of how this language is specified, you can use regular
@@ -3607,7 +3607,7 @@ There is a caveat here, however. Regular expressions work well with nicely
 formatted, predictable HTML-code. This is not the reality of the web. For real
 webscraping, you need a robust HTML parsing library. Enter `BeautifulSoup`.
 
-#### Parsing HTML Using `BeautifulSoup` 
+#### Parsing HTML Using `BeautifulSoup`
 
 After installing `BeautifulSoup` to your Python interpreter (in my case
 Anaconda), you can import it and use it to extract the `href` attributes from
@@ -3722,7 +3722,7 @@ Attrs: [('href', 'http://www.dr-chuck.com/page2.htm')]
 These examples only scratch the surface of what is possible with
 `BeautifulSoup`.
 
-##### Exercise 12.1 
+##### Exercise 12.1
 
 Change the socket program from earlier to prompt the user for the URL so it can
 read any web page. You can use `split('/')` to break the URL into its component
@@ -3730,7 +3730,7 @@ parts so you can extract the host name for the `socket` connect call. Add error
 checking using `try` and `except` to handle the condition where the user enters
 an improperly formatted or non-existent URL.
 
-##### Solution 
+##### Solution
 
 ```python
 import re
@@ -3756,7 +3756,7 @@ except:
     print("There must be somthing wrong with the URL you typed in")
 ```
 
-##### Exercise 12.2 
+##### Exercise 12.2
 
 Change your socket program so that it counts the number of characters it has
 received and stops displaying any text after it has shown 3000 characters. The
@@ -3764,7 +3764,7 @@ program should retrieve the entire document and count the total number of
 characters and display the count of the number of characters at the end of the
 document.
 
-##### Solution 
+##### Solution
 
 ```python
 import re
@@ -3790,14 +3790,14 @@ print(document.decode())
 print('Total number of received characters: ', len(document))
 ```
 
-##### Exercise 12.3 
+##### Exercise 12.3
 
 Use `urllib` to replicate the previous exercise of (1) retrieving the document
 from a URL, (2) displaying up to 3000 characters, and (3) counting the overall
 number of characters in the document. Don't worry about the headers for this
 exercise, simply show the first 3000 characters of the document contents.
 
-##### Solution 
+##### Solution
 
 ```python
 import urllib.request
@@ -3814,14 +3814,14 @@ for line in fhand:
 print(doc[:3000])
 ```
 
-##### Exercise 12.4 
+##### Exercise 12.4
 
 Change the link-extracting program from above to extract and count paragraph (p)
 tags from the retrieved HTML document and display the count of the paragraphs as
 the output of your program. Do not display the paragraph text, only count them.
 Test your program on several small web pages as well as some larger web pages.
 
-##### Solution 
+##### Solution
 
 ```python
 import urllib.request, urllib.parse, urllib.error
@@ -3846,13 +3846,13 @@ for tag in tags:
 print(count)
 ```
 
-##### Exercise 12.5 
+##### Exercise 12.5
 
 (Advanced) Change the socket program so that it only shows data after the
 headers and a blank line have been received. Remember that `recv` receives
 characters (newlines and all), not lines.
 
-##### Solution 
+##### Solution
 
 ```python
 import re
@@ -3881,14 +3881,14 @@ while True:
 mysock.close()
 ```
 
-### Using Web Services 
+### Using Web Services
 
 Parsing HTML is not very efficient as its made for the consumption by humans,
 not programs. There are two common formats that you are used to exchange data
 between machines over the web: _eXtensible Markup Langueage_ (XML) and
 _JavaScript Object Notation_ (JSON).
 
-#### eXtensible Markup Language (XML) 
+#### eXtensible Markup Language (XML)
 
 You can think of XML as a more structured version of HTML which is less
 forgiving about formal mistakes. Here is a sample XML document:
@@ -3908,7 +3908,7 @@ parent element (here: `person`) that has three children (e.g. =phone=).
 
 ![[xml-tree.svg" caption="Figure 7: XNL as a structured tree" >}}
 
-#### Parsing XML 
+#### Parsing XML
 
 The following code shows how to parse and extract some data from an piece of
 data formatted like XML:
@@ -3938,7 +3938,7 @@ tree and returns the element that matches the specified tag.
 What the built-in parser `ElementTree` allows you to do is to extract data from
 XML documents without worrying too much about the exact syntax of XML.
 
-#### Looping Through Nodes 
+#### Looping Through Nodes
 
 Consider the following program which loops through the multiple `user` nodes of
 an XML tree.
@@ -4023,7 +4023,7 @@ User count: 0
 `lst2` is empty because it looked for `user` elements which are not nested
 within the top level `stuff` element (where there are none of).
 
-#### JavaScript Object Notation (JSON) 
+#### JavaScript Object Notation (JSON)
 
 The JSON format was inspired by the object and array format used in JavaScript.
 But since Python is older, its syntax for dictionaries and lists influenced the
@@ -4043,7 +4043,7 @@ combination of Python lists and dictionaries:
 }
 ```
 
-#### Parsing JSON 
+#### Parsing JSON
 
 Generally, JSON data is best thought of in Python as dictionaries nested in
 lists. JSON tends be more succint than XML but also less self-describing which
@@ -4082,7 +4082,7 @@ native dtat structures in many programming languages, there are some
 applications (such as word processors) where XML retains its advantage as a more
 self-describing but complex data structure.
 
-#### Application Programming Interfaces (APIs) 
+#### Application Programming Interfaces (APIs)
 
 You can now exchange data between applications via HTTP, XML or JSON. The next
 step would be to describe a "contract" between different applications for the
@@ -4095,18 +4095,18 @@ The course text gives two examples of API usage (Google Maps and Twitter) that I
 did not find particularly interesting which is why I left them out and directly
 went to the exercises in the autograder.
 
-## Databases 
+## Databases
 
-### Object-Oriented Programming (OOP) 
+### Object-Oriented Programming (OOP)
 
-#### Managing Larger Programs 
+#### Managing Larger Programs
 
 As programs grow in size and complexity, good segmentation of its parts becomes
 more important. In a way, OOP is a way to arrange code enabling you to focus on
 its 50 lines that do the particular thing that's interesting to you or needs
 fixing while ignoring the other 999,950 lines of code that do something else.
 
-#### Using Objects 
+#### Using Objects
 
 Turns out, you have been using objects all the time while constructing Python
 programs:
@@ -4150,7 +4150,7 @@ any given object like so:
 'insert', 'pop', 'remove', 'reverse', 'sort']
 ```
 
-#### Starting with Programs 
+#### Starting with Programs
 
 In its most basic form, a program takes an input, processes it and produces some
 output. Consider, for instance, the following simple elevator conversion
@@ -4203,14 +4203,14 @@ The key here is to understand the program as a network of interacting objects
 along with a set of rules orchestrating the movement of information between
 those objects.
 
-#### Subdividing a Problem 
+#### Subdividing a Problem
 
 A key advantage of OOP is that it hides away complexity when you don't need it
 but shows you where to find it if you do. For instance, you don't need to know
 how the `urllib` objects work internally in order to use them to retrieve some
 data from the internet. This allows you to focus.
 
-#### Our First Python Object 
+#### Our First Python Object
 
 In it most basic sense, an object is simply some code in addition to data
 structures. On the code part of things, objects contain functions (which are
@@ -4278,7 +4278,7 @@ In summary, the object is constructed before its class-internal method is called
 four times both incrementing and printing the value for `x` within the `an`
 object of class `PartyAnimal`.
 
-#### Classes as Types 
+#### Classes as Types
 
 in Python, all variables have a particular type that we can access with the
 built-in `type` function. The built-in `dir` function lets you examine the
@@ -4314,7 +4314,7 @@ Using the `class` keyword, you have effectively created a new type. From the
 output of the `dir` function, you can see both the `x` integer attribute and the
 `party` method are available in the object.
 
-#### Object Lifecycle 
+#### Object Lifecycle
 
 As your classes and objects become more complex, you need to think about what
 happens to its code and its data it is created and when it is destructed. The
@@ -4360,7 +4360,7 @@ destruction process here, you can do some necessary clean-up right before our
 objects slips away into blissful non-existence. Destructor methods are much more
 rarely used than constructor methods.
 
-#### Multiple Instances 
+#### Multiple Instances
 
 When constructing multiple objects from our class, you might want to set up
 different initial values for each of these objects. In order to do this, you can
@@ -4394,7 +4394,7 @@ constructor as the object is being constructed, i.e. when you assign
 Within the constructor, the second line assigns the parameter that was passed
 into the constructor (`nam`) to the object's name attribute.
 
-#### Inheritance 
+#### Inheritance
 
 OOP also gives you the ability to create new classes by simply extending exiting
 classes. By convention, the original class is called the _parent class_ and the
@@ -4439,7 +4439,7 @@ Jim points 6
 'name', 'party', 'points', 'six', 'x']
 ```
 
-#### Summary 
+#### Summary
 
 Reviewing the code block from the beginning of the chapter, you can now
 understand much better what is going on:
@@ -4472,16 +4472,16 @@ are looking for as the second parameter.
 At the end of the program, the `stuff` object is discarded after calling the
 _destructor_ (named `__del__`) so that the object can clean up as necessary.
 
-### Using Databases and SQL 
+### Using Databases and SQL
 
-#### What is a database 
+#### What is a database
 
 A database is a file whose structure is optimised for storing data. Thus it
 lives on permanent storage, such that it persists after the program ends. There
 are many databases out there, but for this course we'll stick to one that is
 already well-integrated into python, namely SQLite.
 
-#### Database concepts 
+#### Database concepts
 
 Think of a database as a spreadsheet with multiple sheets (tables). In each
 _table_, you have _rows_ and _columns_. The corresponding, more technical terms
@@ -4489,7 +4489,7 @@ are _relation_, _tuple_ and /attribute.
 
 ![[_20200922_142944screenshot.png]]
 
-#### Creating a Database Table 
+#### Creating a Database Table
 
 When creating a table in SQLite, we must already tell the database the names of
 all columns along with the type of data we intend to store in it.
@@ -4561,21 +4561,21 @@ Tracks:
 ('My Way', 15)
 ```
 
-#### SQL Summary 
+#### SQL Summary
 
-##### Create a table 
+##### Create a table
 
 ```sql
 CREATE TABLE Tracks (title TEXT, plays INTEGER)
 ```
 
-##### Insert rows into table 
+##### Insert rows into table
 
 ```sql
 INSERT INTO Tracks (title, plays) VALUES ('My Way', 15)
 ```
 
-##### Retrieve rows and columns from a table 
+##### Retrieve rows and columns from a table
 
 ```sql
 SELECT * FROM Tracks WHERE title = 'My Way'
@@ -4592,13 +4592,13 @@ SELECT * FROM Tracks WHERE title = 'My Way'
 SELECT title,plays FROM Tracks ORDER BY title
 ```
 
-##### Delete rows 
+##### Delete rows
 
 ```sql
 DELETE FROM Tracks WHERE title = 'My Way'
 ```
 
-##### Update column(s) within one or more rows 
+##### Update column(s) within one or more rows
 
 ```sql
 UPDATE Tracks SET plays = 16 WHERE title = 'My Way'
@@ -4609,7 +4609,7 @@ UPDATE Tracks SET plays = 16 WHERE title = 'My Way'
   _These four basic SQL commands (`INSERT`, `SELECT`, `UPDATE`, and `DELETE`)
   allow the four basic operations needed to create and maintain data._
 
-#### Spidering 
+#### Spidering
 
 In the following, I used an example that is related to my thesis in political
 science instead of the twitter spidering. Roughly the same features were
@@ -4796,7 +4796,7 @@ for block in soup.find_all(
 conn.commit()
 ```
 
-#### Three Kinds of Keys 
+#### Three Kinds of Keys
 
 - A _logical key_ is a key that the “real world” might use to look up a row. In
   our example data model, the name field is a logical key. It is the screen name
@@ -4818,7 +4818,7 @@ conn.commit()
   associated row in a different table. An example of a foreign key in our data
   model is the from_id.
 
-#### Using `JOIN` top Retrieve Data 
+#### Using `JOIN` top Retrieve Data
 
 To query our event database, we have to use `JOIN` clauses to reconnect our
 disparate tables on a certain field. For example, in order to retrieve all
@@ -4839,7 +4839,7 @@ SELECT * FROM events
     JOIN tags t on et.tag_id = t.id WHERE t.name = 'NSA'
 ```
 
-#### Summary 
+#### Summary
 
 ​This chapter has covered a lot of ground to give you an overview of the basics
 of using a database in Python. It is more complicated to write the code to use a

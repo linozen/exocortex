@@ -27,4 +27,3 @@ eating disorders and addiction.
 - Jay Earley's [[earley2012|book on IFS]]
 - [List of podcast](https://ifs-institute.com/resources/podcasts-and-teleconferences)
   with the founder of IFS Robert Schwarz
-	

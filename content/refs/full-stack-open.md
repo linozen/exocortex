@@ -13,9 +13,9 @@ Links >> [Notes on: Eloquent JavaScript]({{< relref "eloquent-javascript" >}})
 
 {{< toc >}}
 
-## Fundamentals of Web Apps 
+## Fundamentals of Web Apps
 
-### Traditional Web Applications 
+### Traditional Web Applications
 
 Most of the code below represents bad practice nowadays.
 
@@ -84,7 +84,7 @@ xhttp.open("GET", "/data.json", true);
 xhttp.send();
 ```
 
-### Document Object Model (DOM) 
+### Document Object Model (DOM)
 
 We can think of HTML-pages as tree structures. In the case of dynamic webpages,
 [DOM](https://en.wikipedia.org/wiki/Document%5FObject%5FModel) is an Application
@@ -97,7 +97,7 @@ itself. Within a webpage, JavaScript can:
 - react to all the existing events
 - create new events
 
-### Manipulate the document-object from console 
+### Manipulate the document-object from console
 
 Turns out that we can manipulate the object from the browser console:
 
@@ -106,7 +106,7 @@ Turns out that we can manipulate the object from the browser console:
 The newly created note will render but disappear on a reload of the page since
 we have not pushed the change to the server yet.
 
-### Cascading Style Sheets (CSS) 
+### Cascading Style Sheets (CSS)
 
 CSS is a markup language that determines the style of a webpage. The `main.css`
 file that is loaded as a stylesheet in the HTML on our example page defines two
@@ -145,7 +145,7 @@ li.spacious.elegant {
 There are also other attributes than `class`. For example, there is the `id`
 attribute which is used by JavaScript to find the element.
 
-### Summary on how the browser loads a page containing JavaScript 
+### Summary on how the browser loads a page containing JavaScript
 
 Let's revisit how the interplay between browser and server unfolds when the page
 <https://fullstack-exampleapp.herokuapp.com/notes> is opened.
@@ -162,7 +162,7 @@ Let's revisit how the interplay between browser and server unfolds when the page
 4.  When the data is fetched, the browser executes the _event handler_, which
     renders the notes to the page using the DOM-API.
 
-### Forms and HTTP POST 
+### Forms and HTTP POST
 
 Using the form on the
 [notes page](https://fullstack-exampleapp.herokuapp.com/notes) to add a new note
@@ -203,7 +203,7 @@ app.post("/new_note", (req, res) => {
 The server does not save the array containing `content` and `date` to a
 database, so new notes vanish when Heroku restarts the service
 
-### AJAX 
+### AJAX
 
 The notes page from above uses a concept called Asynchronous JavaScript and XML
 (AJAX) which became popular in the early 2000s. It describes a revolutionary
@@ -229,7 +229,7 @@ covered later.
 
 Nowadays, everything uses AJAX so the term has become somewhat meaningless.
 
-### Single Page Applications (SPA) 
+### Single Page Applications (SPA)
 
 While "traditional" web applications have all the logic running on the server
 with the browser continually rerendering the HTML it fetches, SPAs consist of a
@@ -279,7 +279,7 @@ form.onsubmit = function (e) {
 Nonetheless, even the SPA version of the page does not adhere to current best
 practices.
 
-### JavaScript Libraries 
+### JavaScript Libraries
 
 The application above is mainly coded in pure or "vanilla" JavaScript as it only
 uses the DOM-API and built-in JavaScript features to manipulate the structure of
@@ -296,26 +296,26 @@ interact with the DOM-API. Some of the most popular include:
 - Today, the most popular tool for implementing the browser-side logic of
   web-applications is Facebook's React library
 
-### Exercises 0.1.-0.6. 
+### Exercises 0.1.-0.6.
 
-#### 0.1 HTML 
+#### 0.1 HTML
 
 Review the basics of HTML by reading
 [this tutorial](https://developer.mozilla.org/en-US/docs/Learn/Getting%5Fstarted%5Fwith%5Fthe%5Fweb/HTML%5Fbasics)
 from Mozilla.
 
-#### 0.2: CSS 
+#### 0.2: CSS
 
 Review the basics of CSS by reading
 [this tutorial](https://developer.mozilla.org/en-US/docs/Learn/Getting%5Fstarted%5Fwith%5Fthe%5Fweb/CSS%5Fbasics)
 from Mozilla.
 
-#### 0.3: HTML forms 
+#### 0.3: HTML forms
 
 Learn about the basics of HTML forms by reading
 [Mozilla's tutorial "Your first form"](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your%5Ffirst%5Fform).
 
-#### 0.4: new note 
+#### 0.4: new note
 
 In chapter Loading a page containing JavaScript - revised the chain of events
 caused by opening the page <https://fullstack-exampleapp.herokuapp.com/notes> is
@@ -361,13 +361,13 @@ found from the text of this part. The idea of these exercises is to read the
 text through once more, and to think through what is going on where. Reading the
 application code is not necessary, but it is of course possible.
 
-#### 0.5: Single Page App 
+#### 0.5: Single Page App
 
 Create a diagram depicting the situation where the user goes to the single page
 app version of the notes app at
 <https://fullstack-exampleapp.herokuapp.com/spa>.
 
-#### 0.6: New Note 
+#### 0.6: New Note
 
 Create a diagram depicting the situation where user creates a new note using the
 single page version of the app.
@@ -378,11 +378,11 @@ mark the exercises as done in the submission application.
 My solutions to the exercises are published
 [here](https://github.com/linozen/fso2020).
 
-## Intro to React 
+## Intro to React
 
-### Debugging React Apps 
+### Debugging React Apps
 
-#### Rules of Hooks 
+#### Rules of Hooks
 
 Never use `useState` or `useEffect` inside a loop. Only ever call hook from
 inside a function body defining a React component:
@@ -414,7 +414,7 @@ const App = (props) => {
 }
 ```
 
-#### Event Handlers 
+#### Event Handlers
 
 Assume we develop this application:
 
@@ -532,14 +532,14 @@ const App = (props) => {
 Another important rule is to **never define components within components**. It's
 nasty.
 
-## Communicating with Server 
+## Communicating with Server
 
-### Rendering a collection, modules 
+### Rendering a collection, modules
 
 > What's the difference between an experienced JavaScript programmer and a
 > rookie? The experienced one uses `console.log` 10-100 times more.
 
-#### JavaScript `const`, `let` and `var` 
+#### JavaScript `const`, `let` and `var`
 
 - was slightly confused and then read
   [this article](https://dev.to/sarah%5Fchima/var-let-and-const--whats-the-difference-69e)
@@ -561,7 +561,7 @@ const greeting = {
 greeting.message = "Say Hello instead";
 ```
 
-#### Functional Programming in JavaScript 
+#### Functional Programming in JavaScript
 
 - Watch this
   [video series](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84).
@@ -635,7 +635,7 @@ let totalAmount = orders.reduce(function (sum, order) {
 }, 0);
 ```
 
-#### Anti-pattern: array indexes as keys 
+#### Anti-pattern: array indexes as keys
 
 Avoid using the index of an array within the map function in React. See
 [here](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318)
@@ -660,18 +660,18 @@ Do it like this instead:
 </ul>
 ```
 
-### Forms 
+### Forms
 
 - See the example projects (esp. `phonebook`)
 
-### Getting data from server 
+### Getting data from server
 
 - Watch [this video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) about event
   loops in JavaScript.
 - See the example projects in github and their final solutions (esp.
   `countries`)
 
-### Altering data in server 
+### Altering data in server
 
 - Routes are URLs + HTTP request types
 - Never mutate state directly. If a state is an array use a method like `concat`
@@ -682,11 +682,11 @@ Do it like this instead:
   and [this article](https://javascript.info/promise-chaining) should be read
   and understood.
 
-### Adding styles to React app 
+### Adding styles to React app
 
-## Programming a Server with NodeJS and Express 
+## Programming a Server with NodeJS and Express
 
-### RESTful APIs 
+### RESTful APIs
 
 - see this
   [article](https://martinfowler.com/articles/richardsonMaturityModel.html#level1)
@@ -697,22 +697,22 @@ Do it like this instead:
   3.  Multimedia
 -
 
-### Difference between SQL and NoSQL 
+### Difference between SQL and NoSQL
 
 {{< youtube ruz-vK8IesE >}}
 
-## Testing Express Servers, User Administration 
+## Testing Express Servers, User Administration
 
-## Testing React Apps 
+## Testing React Apps
 
-## State Management with Redux 
+## State Management with Redux
 
-## React Router, Custom Hooks, Styling App with CSS and Webpack 
+## React Router, Custom Hooks, Styling App with CSS and Webpack
 
-## GraphQL 
+## GraphQL
 
-## Typescript 
+## Typescript
 
-## Resources 
+## Resources
 
 <~/Exocortex/bib/library.bib>

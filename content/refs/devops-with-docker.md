@@ -177,7 +177,7 @@ docker run --rm -p 5000:5000 ex1_10:latest
 
 yields the following:
 
-![[_20201112_164232screenshot.png"]]
+![[_20201112_164232screenshot.png]]
 
 If found this more elegant version (not using `ubuntu:16.04`) online:
 
@@ -264,7 +264,7 @@ docker run -d --rm --name java -p 8080:8080 ex1_13:latest
 
 yielding the Spring application on port 8080.
 
-![[_20201113_075648screenshot.png"]]
+![[_20201113_075648screenshot.png]]
 
 #### Exercise 1.14
 
@@ -293,7 +293,7 @@ docker run -d --rm --name ruby -p 3000:3000 ex1_14:latest
 
 yielding
 
-![[_20201113_085701screenshot.png"]]
+![[_20201113_085701screenshot.png]]
 
 #### Exercises 1.15-1.17
 
@@ -414,7 +414,7 @@ services:
     container_name: "redis"
 ```
 
-![[_20201113_112517screenshot.png"]]
+![[_20201113_112517screenshot.png]]
 
 ### Scaling
 
@@ -476,7 +476,7 @@ running Fedora due to CORS. I probably would have to edit my `hosts` file to
 make it work. I was not inclined to do so, so I just installed `xfce` in my
 Debian VM, openend Gnome Boxes and browsed to `local.test.me:3000`:
 
-![[_20201113_122622screenshot.png"]]
+![[_20201113_122622screenshot.png]]
 
 ### Networking & More Complex Applications
 
@@ -579,7 +579,7 @@ volumes:
 yielding a frontend with a working database connection as the developer console
 shows
 
-![[_20201114_102023screenshot.png"]]
+![[_20201114_102023screenshot.png]]
 
 #### Exercise 2.7
 
@@ -739,6 +739,7 @@ Regarding Exercise 2.10: All buttons worked for me as shown above.
   the contained images if using
   [watchtower](https://containrrr.dev/watchtower/)) and deploys them to Docker
   Hub. Cool!
+
 - I skipped the exercises until Exercise 3.2 as I did not feel like deploying
   something on Heroku and it seems fairly obvious how to get it working.
 - If you need tools for the build but not for the execution, do a so-called

@@ -10,7 +10,7 @@ tags = ["institutions", "social science"]
 Links >> [Historical
 Institutionalism]({{< relref "historical-institutionalism" >}})
 
-## Main Notion 
+## Main Notion
 
 > Path dependence gains its explanatory power by specifying a particular type of
 > causal variable (endogenous) and a particular type of causal mechanism
@@ -21,9 +21,9 @@ Institutionalism]({{< relref "historical-institutionalism" >}})
 
 ![[rixen2015_fig1.png"}}
 
-## Resources 
+## Resources
 
-### Bibliography 
+### Bibliography
 
 <a id="org9e51127"></a>Rixen, Thomas, and Lora Anne Viola. 2015. “Putting Path
 Dependence in Its Place: Toward a Taxonomy of Institutional Change.” _Journal of

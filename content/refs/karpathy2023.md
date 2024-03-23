@@ -4,6 +4,7 @@ tags: ai mooc
 ---
 
 [Lecture index](https://karpathy.ai/zero-to-hero.html)
+[Karpathy's lecture on the state of GPT](https://www.youtube.com/watch?v=xO73EUwSegU)
 
 ## Intro to neural networks and backpropagation
 

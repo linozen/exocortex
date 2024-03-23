@@ -4,7 +4,6 @@ tags:
   - psychotherapy
 ---
 
-
 **Focusing** is a psychotherapeutic process developed by psychotherapist Eugene
 Gendlin. It involves a person directly "tapping into" their body's knowledge and
 wisdom to help resolve issues or make decisions. This is done by paying

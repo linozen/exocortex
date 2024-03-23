@@ -42,7 +42,7 @@ be able to access this technology on their own. While in 2018, 18 our of 65
 countries were using Chinese AIST, the AIGS Index shows that the number of
 countries having access to Chinese AIST has risen to 47 out of 65.
 
-![[2020-05-05_09-43-45_screenshot.png"]]
+![[2020-05-05_09-43-45_screenshot.png]]
 
 ### China is not the only supplier
 

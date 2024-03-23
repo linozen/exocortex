@@ -4,16 +4,16 @@ import { QuartzEmitterPlugin } from "../types"
 // @ts-ignore
 import spaRouterScript from "../../components/scripts/spa.inline"
 // @ts-ignore
-import popoverScript from "../../components/scripts/popover.inline"
-import styles from "../../styles/custom.scss"
-import popoverStyle from "../../components/styles/popover.scss"
-import { BuildCtx } from "../../util/ctx"
-import { QuartzComponent } from "../../components/types"
-import { googleFontHref, joinStyles } from "../../util/theme"
-import { Features, transform } from "lightningcss"
 import { transform as transpile } from "esbuild"
-import { write } from "./helpers"
+import { Features, transform } from "lightningcss"
+import popoverScript from "../../components/scripts/popover.inline"
+import popoverStyle from "../../components/styles/popover.scss"
+import { QuartzComponent } from "../../components/types"
 import DepGraph from "../../depgraph"
+import styles from "../../styles/custom.scss"
+import { BuildCtx } from "../../util/ctx"
+import { googleFontHref, joinStyles } from "../../util/theme"
+import { write } from "./helpers"
 
 type ComponentResources = {
   css: string[]
@@ -128,6 +128,14 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       goatcounterScript.setAttribute("data-goatcounter",
         "https://${cfg.analytics.websiteId}.${cfg.analytics.host ?? "goatcounter.com"}/count")
       document.head.appendChild(goatcounterScript)
+    `)
+  } else if (cfg.analytics?.provider === "vercel") {
+    componentResources.afterDOMLoaded.push(`
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      const vercelScript = document.createElement("script")
+      vercelScript.src = "/_vercel/insights/script.js"
+      vercelScript.defer = true
+      document.head.appendChild(vercelScript)
     `)
   }
 

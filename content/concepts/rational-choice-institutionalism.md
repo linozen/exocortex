@@ -9,9 +9,9 @@ tags = ["social science", "institutions"]
 
 Links >> [Sociological
 Institutionalism]({{< relref "sociological-institutionalism" >}}) | [Historical
-Institutionalism]({{< relref "historical-institutionalism" >}}) | [Notes on:
-Political Science and the Three New Institutionalisms (Hall & Taylor
-1996)]({{< relref "hall1996" >}})
+Institutionalism]({{< relref "historical-institutionalism" >}})
+| [Notes on: Political Science and the Three New Institutionalisms (Hall &
+Taylor 1996)]({{< relref "hall1996" >}})
 
 rooted in American political science of the 1970s
 

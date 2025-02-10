@@ -1,6 +1,8 @@
 ---
 title: Normalisation
-description: Where the notion of something being 'normal' comes from and what types of 'normalisation' Foucault conceptualised
+description:
+  Where the notion of something being 'normal' comes from and what types of
+  'normalisation' Foucault conceptualised
 tags:
   - foucault
   - surveillance
@@ -29,21 +31,20 @@ use them and profit by them so extensively." [@mumford1934, p. 4]
 This is reflected in the word used to describe the discipline in which normality
 takes centre stage: _Statistics_. It is no accident that the words _state_ to
 denote a political entity and the word _statistics_ share see same root, see
-@foucault1975 [p. 101]. It is this field which assumes that the characteristics
-of human bodies, the parameters of its experience or features of entire
-populations can be meaningfully measured and compared against each other. The
-final aim of this exercise is the construction of an [[ideology]] of
-_purification_ that classifies human bodies, experience and collectives into
-normal and abnormal, governed and not (yet) governed, pure and impure. On the
-issue of normalisation as purification and its relationship to what Foucault
-calls "state racism", see especially _Society Must Be Defended_ where Foucault
-says: "We see the appearance of a State racism: a racism that society will
-direct against itself, against its own elements and its own products. This is
-the internal racism of permanent purification, and it will become [in the early
-19th century] one of the basic dimensions of social normalization."
-[@foucault2003]. This ideology is so deeply entrenched in modern discourse that
-its removal from the discourse would render much of it unintelligible and
-meaningless [@link1997].
+@foucault1975 [p. 101]. It is this field which assumes that the characteristics of
+human bodies, the parameters of its experience or features of entire populations
+can be meaningfully measured and compared against each other. The final aim of this
+exercise is the construction of an [[ideology]] of _purification_ that classifies
+human bodies, experience and collectives into normal and abnormal, governed and not
+(yet) governed, pure and impure. On the issue of normalisation as purification and
+its relationship to what Foucault calls "state racism", see especially _Society Must
+Be Defended_ where Foucault says: "We see the appearance of a State racism: a racism
+that society will direct against itself, against its own elements and its own products.
+This is the internal racism of permanent purification, and it will become [in
+the
+early 19th century] one of the basic dimensions of social normalization." [@foucault2003].
+This ideology is so deeply entrenched in modern discourse that its removal from the
+discourse would render much of it unintelligible and meaningless [@link1997].
 
 In its more general sense _normalisation_ refers to the "processes that
 construct experiences and capacities of some social segments into standards
@@ -92,23 +93,21 @@ discourse that cannot do without notions like normality and abnormality.
 
 The second form is what Foucault later, more precisely in the third lecture of
 the series _Security, Territory & Population_, called normalisation "in the
-strict sense" [@foucault2009, 63]. It differs from disciplinary normation in
-that it is applied to populations as whole and not individual bodies. Foucault
-uses the governmental response to epidemics in the 18th and 19th century to
-explain the divergence of normalisation from the disciplinary normation
-discussed above. While in the disciplines, a norm is predefined and normation
-then operates to achieve fixed objectives such as how to hold the rifle and who
-to have sex with, the operation of normalisation now consists in "establishing
-an interplay between these different distributions of normality and (in) acting
-to bring the most unfavorable in line with the more favorable" [@foucault2009,
-p. 63]. Imagine different states within a country. Suppose each of these states
-has different rates at which people succumb to COVID-19, thus creating different
-normalities. Then these different normalities are compared against each other to
-construct a temporary norm of what is demmed most desirable for the overall
-population. Finally, as Ladelle McWhorter summarises it succintly in her
-contribution to the _Cambridge Foucault Lexicon_: "These population-enhancement
-techniques do not discipline individual bodies to fixed norms; rather, by
-changing the conditions of life of a population, they cause changes in the norms
-themselves." [@lawlor2014]
+strict sense" [@foucault2009, 63]. It differs from disciplinary normation in that
+it is applied to populations as whole and not individual bodies. Foucault uses the
+governmental response to epidemics in the 18th and 19th century to explain the divergence
+of normalisation from the disciplinary normation discussed above. While in the disciplines,
+a norm is predefined and normation then operates to achieve fixed objectives such
+as how to hold the rifle and who to have sex with, the operation of normalisation
+now consists in "establishing an interplay between these different distributions
+of normality and (in) acting to bring the most unfavorable in line with the more
+favorable" [@foucault2009, p. 63]. Imagine different states within a country. Suppose
+each of these states has different rates at which people succumb to COVID-19, thus
+creating different normalities. Then these different normalities are compared against
+each other to construct a temporary norm of what is demmed most desirable for the
+overall population. Finally, as Ladelle McWhorter summarises it succintly in her
+contribution to the _Cambridge Foucault Lexicon_: "These population-enhancement techniques
+do not discipline individual bodies to fixed norms; rather, by changing the conditions
+of life of a population, they cause changes in the norms themselves." [@lawlor2014]
 
 ## Bibliography

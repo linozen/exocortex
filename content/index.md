@@ -22,11 +22,11 @@ links to other parts in my Exocortex.
 
 You could also dive in by navigating to one of the following index notes:
 
-- Explore my notes on things made by other people. I call them reference notes
-  or [[refs/index|refs]] for short.
-- Explore my notes on [[concepts]]. Here, you still find lots of stuff made and
-  thought by other people, but there's certainly more of my own synthesizing and
-  structuring going on.
+-   Explore my notes on things made by other people. I call them reference notes
+    or [[21.04_Zettel/refs/index|refs]] for short.
+-   Explore my notes on [[21.04_Zettel/concepts/index|concepts]]. Here, you still find lots
+    of stuff made and thought by other people, but there's certainly more of my
+    own synthesizing and structuring going on.
 
 These two shall remain the only two loose categories for this space. The more
 they bleed into another, the better. Everything else is added and then put in
@@ -57,6 +57,6 @@ There is list of wonderful Zettelkasten projects over here
 [on GitHub](https://github.com/KasperZutterman/Second-Brain). Some of my
 favourites are:
 
-- Jethro Kuan's braindump at https://braindump.jethro.dev
-- Gwern's legendary https://gwern.net
-- Andy Matuschak's working notes over at https://notes.andymatuschak.org
+-   Jethro Kuan's braindump at https://braindump.jethro.dev
+-   Gwern's legendary https://gwern.net
+-   Andy Matuschak's working notes over at https://notes.andymatuschak.org

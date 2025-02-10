@@ -17,8 +17,8 @@ towards a steady state, why did dysfunctional institutions persist. Hence,
 ## Definition of International Institutions (IIs)
 
 HI has as an expansive and textured understanding of which institutions matter
-and how they matter [@hall1996, 937]. IIs are humanly devised rule systems that
-structure and constrain the behaviour of individual actors.
+and how they matter [@hall1996, 937]. IIs are humanly devised rule systems that structure
+and constrain the behaviour of individual actors.
 
 For historical institutionalists, IIs are:
 
@@ -92,5 +92,5 @@ performance.
 
 - Process of institutionalisation (emergence/destruction of institutions after
   so-called critical junctures)
-- [Path Dependency]({{< relref "path-dependency" >}}) of institutions (path
-  dependency as choice under historical constraints)
+- [Path Dependency]({{< relref "path-dependency" >}}) of institutions (path dependency
+  as choice under historical constraints)

@@ -27,8 +27,8 @@ a more accurate response.
 
 _Autocratization_ is a matter of degree and can occur both in democracies and
 autocracies. It is _democratization_ in reverse and describes "any move away
-from [full] democracy" [@luhrmann2019, 1099]. It can be decomposed into the
-following phases:
+from [full] democracy" [@luhrmann2019, 1099]. It can be decomposed into the following
+phases:
 
 ![[2020-05-06_12-42-18_screenshot.png]]
 

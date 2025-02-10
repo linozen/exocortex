@@ -7,8 +7,7 @@ summary = "An important concept for understanding (the absence of) institutional
 tags = ["institutions", "social science"]
 +++
 
-Links >> [Historical
-Institutionalism]({{< relref "historical-institutionalism" >}})
+Links >> [Historical Institutionalism]({{< relref "historical-institutionalism" >}})
 
 ## Main Notion
 

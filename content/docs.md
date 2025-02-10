@@ -62,8 +62,8 @@ At this layer, I refine and connect knowledge. It consists mainly of (re)writing
 and organizing in this space, i.e. the Exocortex, and creating Anki cards.
 
 In the future, this section will contain documentation for how I transform
-material I read or watched to [[refs/index|reference notes]] or
-[[concepts/index|concept notes]]. If I want to store something for the long-term
+material I read or watched to [[21.04_Zettel/refs/index|reference notes]] or
+[[21.04_Zettel/concepts/index|concept notes]]. If I want to store something for the long-term
 I add it to Anki. There I follow Michael Nielsen's
 [advice](http://augmentingcognition.com/ltm.html) to have one big deck (which I
 call `LTS`) for everything.

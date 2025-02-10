@@ -9,9 +9,10 @@ tags = ["institutions", "social-science"]
 
 Links >> [Historical
 Institutionalism]({{< relref "historical-institutionalism" >}}) | [Rational
-Choice Institutionalism]({{< relref "rational-choice-institutionalism" >}}) |
-[Notes on: Political Science and the Three New Institutionalisms (Hall & Taylor
-1996)]({{< relref "hall1996" >}})
+Choice
+Institutionalism]({{< relref "rational-choice-institutionalism" >}}) | [Notes
+on:
+Political Science and the Three New Institutionalisms (Hall & Taylor 1996)]({{< relref "hall1996" >}})
 
 ## Origin
 

@@ -12,9 +12,7 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "vercel",
-    },
+    analytics: null,
     locale: "en-US",
     baseUrl: "exocortex.sehn.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],

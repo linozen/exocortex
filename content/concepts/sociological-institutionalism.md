@@ -1,18 +1,17 @@
-+++
-title = "Sociological Institutionalism"
-author = ["Linus Sehn"]
-draft = false
-subtitle = ""
-summary = "Institutions as social structures composed of cultural-cognitive, normative, and regulative elements that provide stability and meaning to social life"
-tags = ["institutions", "social-science"]
-+++
+---
+title: Sociological Institutionalism
+description:
+  Institutions as social structures composed of cultural-cognitive, normative,
+  and regulative elements that provide stability and meaning to social life
+tags:
+  - concept
+  - institutions
+  - social-science
+author: Linus Sehn
+authored_on: 2026-06-06
+---
 
-Links >> [Historical
-Institutionalism]({{< relref "historical-institutionalism" >}}) | [Rational
-Choice
-Institutionalism]({{< relref "rational-choice-institutionalism" >}}) | [Notes
-on:
-Political Science and the Three New Institutionalisms (Hall & Taylor 1996)]({{< relref "hall1996" >}})
+Links >> [[historical-institutionalism|Historical Institutionalism]] | [[rational-choice-institutionalism|Rational Choice Institutionalism]] | [[hall1996|Notes on: Political Science and the Three New Institutionalisms (Hall & Taylor 1996)]]
 
 ## Origin
 
@@ -20,22 +19,16 @@ Political Science and the Three New Institutionalisms (Hall & Taylor 1996)]({{< 
 
 ## (Thick) Definition
 
-Institutions as social structures composed of cultural-cognitive, normative, and
-regulative elements that provide stability and meaning to social life.
+Institutions as social structures composed of cultural-cognitive, normative, and regulative elements that provide stability and meaning to social life.
 
 ## Focus
 
-- Explaining isomorphism, i.e. the process of different organisations becoming
-  more similar over time, and decoupling, i.e. the difference between formal
-  policies and actual organizational practices
+- Explaining isomorphism, i.e. the process of different organisations becoming more similar over time, and decoupling, i.e. the difference between formal policies and actual organizational practices
 
 ## Puzzles
 
-- Why do organisations become more similar over time (and not necessarily more
-  efficient)?
-  - organisations strive for legitimacy. Institutional pressures make
-    organisations adopt the "rationalised myths" (design prescriptions) of their
-    environments through _coercive_, _mimetic_, and _normative_ pressures.
+- Why do organisations become more similar over time (and not necessarily more efficient)?
+  - organisations strive for legitimacy. Institutional pressures make organisations adopt the "rationalised myths" (design prescriptions) of their environments through _coercive_, _mimetic_, and _normative_ pressures.
 
 ## Resources
 

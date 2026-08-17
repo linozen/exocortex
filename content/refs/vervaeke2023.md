@@ -1,8 +1,13 @@
 ---
-title: Awakening from the Meaning Crisis (Vervaeke, 2023)
+title: "Notes on: Awakening from the Meaning Crisis (Vervaeke, 2023)"
+author: Linus Sehn
+authored_on: 2025-02-10
+medium: course
+tags:
+  - ref
 ---
 
-50-part lecture series on the [[meaning-crisis]]. This page contains a max. 3-paragraph summary of each lecture with links to more in-depth elucidations of mentionend [[21.04_Zettel/concepts/index|concepts]]. There is a brief summary [over here](https://www.themortalatheist.com/blog/awakening-from-the-meaning-crisis-john-vervaeke) by the Mortal Atheist.
+50-part lecture series on the [[meaning-crisis]]. This page contains a max. 3-paragraph summary of each lecture with links to more in-depth elucidations of mentionend [[21.02_Zettel/concepts/_index|concepts]]. There is a brief summary [over here](https://www.themortalatheist.com/blog/awakening-from-the-meaning-crisis-john-vervaeke) by the Mortal Atheist.
 
 ## Lecture 1
 

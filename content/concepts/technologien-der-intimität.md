@@ -1,6 +1,11 @@
 ---
 title: Technologien der Intimität
-summary: Was bringt uns zusammen und warum ist das wichtig?
+description: Was bringt uns zusammen und warum ist das wichtig?
+author: Linus Sehn
+authored_on: 2026-06-06
+tags:
+  - surveillance
+  - concept
 ---
 
 ## Was ist Intimität?
@@ -18,8 +23,7 @@ _intim_: Superlativ zu lat. _interus_ (innen befindlich, geheim), _interior_ (in
 - Verwundbarkeit / Öffnung
 
   - Marina Abramovics _Rhythm 0_
-  - siehe Valie Exports Eros/ion.
-    > Zunächst rollte ich mich nackt auf einer Glasscheibe hin und her, dann in den Glassplittern und schließlich auf der Papierleinwand. Die Schnitte auf meine Haut waren Öffnungen in das Innerste, in die innere Haut des Körpers
+  - siehe Valie Exports Eros/ion. > Zunächst rollte ich mich nackt auf einer Glasscheibe hin und her, dann in den Glassplittern und schließlich auf der Papierleinwand. Die Schnitte auf meine Haut waren Öffnungen in das Innerste, in die innere Haut des Körpers
 
 - Voraussetzung der Intim- oder Privatsphäre
   - Frage nach Überwachung, siehe _Satisfaction_ von Elke Krystufek [![Elke Krystufek 'Satisfaction', 1994 -](https://64.media.tumblr.com/tumblr_m4yrf7HYe91rwkl5zo1_640.jpg)[[]]
@@ -77,9 +81,7 @@ _intim_: Superlativ zu lat. _interus_ (innen befindlich, geheim), _interior_ (in
   - Gender-ratio, insb. bei zahlenden Kunden
 - Tinder zu Hinge (der App, die gelöscht werden will), Die Fähigkeit des Kapitalismus
 
-  > "KI könnte uns noch besser zeigen, an wem Sie interessiert sind und was ihr Typ ist"
-  >
-  > Logan Ury, Director of Relationship science, Hinge
+ > "KI könnte uns noch besser zeigen, an wem Sie interessiert sind und was ihr Typ ist" > > Logan Ury, Director of Relationship science, Hinge
 
 - Bumble als frauenfokussierte Alternative
 - Beide leiden unter Dating App Burnout. Forbes Health Survey. Nutzer(:innen) sind weniger bereit zu zahlen
@@ -93,13 +95,13 @@ _intim_: Superlativ zu lat. _interus_ (innen befindlich, geheim), _interior_ (in
   - das echte Leben?
   - [Somebody](https://somebodyapp.com)
 
-  > Half-app / half-human, Somebody is a far-reaching public art project that incites performance and twists our love of avatars and outsourcing — every relationship becomes a three-way. The antithesis of the utilitarian efficiency that tech promises, here, finally, is an app that makes us nervous, giddy, and alert to the people around us.
+ > Half-app / half-human, Somebody is a far-reaching public art project that incites performance and twists our love of avatars and outsourcing — every relationship becomes a three-way. The antithesis of the utilitarian efficiency that tech promises, here, finally, is an app that makes us nervous, giddy, and alert to the people around us.
 
 ### Waschmaschine
 
 - Erste vollautomatische Waschmaschine 'Constructa' aus der düsseldorfer Maschinenfabrik Peter Pfennigsberg auf der Hansaallee
 
-  > An Mutti denken, Constructa schenken
+ > An Mutti denken, Constructa schenken
 
 ## Was braucht Technologie, um uns näher zu bringen?
 
@@ -110,3 +112,7 @@ _intim_: Superlativ zu lat. _interus_ (innen befindlich, geheim), _interior_ (in
 3. Technologie formt unsere Körper und Bewegungen als menschlich geschaffener Lebensraum
 4. Technologie verändert Machtverhältnisse auf unvorhersehbare Weise und schafft eine Umgebung, die einigen Menschen Vorteile verschafft und Anpassungsdruck zur Akzeptanz neuer Technologien erzeugt.
 5. Technologie beeinflusst, welche Ideen wir schätzen, die Qualität unserer Aufmerksamkeit sowie unser Selbstbild und die Wahrnehmung der Welt.
+
+## Siehe auch
+
+- Avgi Saketopoulou — _Sexuality Beyond Consent_ (Buch über Begehren jenseits der Kategorie des Konsens; relevant für die Frage, was zwischenmenschliche Intimität eigentlich aushandelt)

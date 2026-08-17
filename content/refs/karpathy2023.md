@@ -1,10 +1,12 @@
 ---
-title: "Neural Networks: Zero to Hero"
-tags: ai mooc
+title: "Notes on: Neural Networks: Zero to Hero"
+tags: [ai, mooc, ref]
+author: Linus Sehn
+authored_on: 2024-03-12
+medium: course
 ---
 
-[Lecture index](https://karpathy.ai/zero-to-hero.html)
-[Karpathy's lecture on the state of GPT](https://www.youtube.com/watch?v=xO73EUwSegU)
+[Lecture index](https://karpathy.ai/zero-to-hero.html) [Karpathy's lecture on the state of GPT](https://www.youtube.com/watch?v=xO73EUwSegU)
 
 ## Intro to neural networks and backpropagation
 
